@@ -1,0 +1,809 @@
+# Nmap 7.92 scan initiated Tue Dec 28 13:21:03 2021 as: nmap -oN Nmap_scans/init_scan.txt -sS -p 22,53,80,443 192.168.1.0-255
+Nmap scan report for 192.168.1.1
+Host is up (0.0082s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 54:9F:35:1E:83:48 (Dell)
+
+Nmap scan report for 192.168.1.22
+Host is up (0.0029s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  open   http
+443/tcp closed https
+MAC Address: F0:9F:C2:20:33:F6 (Ubiquiti Networks)
+
+Nmap scan report for 192.168.1.23
+Host is up (0.0029s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  open   http
+443/tcp closed https
+MAC Address: F0:9F:C2:20:2F:B6 (Ubiquiti Networks)
+
+Nmap scan report for 192.168.1.24
+Host is up (0.0065s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  open   http
+443/tcp closed https
+MAC Address: F0:9F:C2:20:2E:D7 (Ubiquiti Networks)
+
+Nmap scan report for 192.168.1.30
+Host is up (0.0046s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  open   http
+443/tcp closed https
+MAC Address: 54:C4:15:EC:0B:5D (Hangzhou Hikvision Digital Technology)
+
+Nmap scan report for 192.168.1.50
+Host is up.
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  filtered domain
+80/tcp  filtered http
+443/tcp filtered https
+MAC Address: 8C:B8:4A:3D:9F:EE (Samsung Electro-mechanics(thailand))
+
+Nmap scan report for 192.168.1.51
+Host is up (0.0041s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: CC:B1:1A:64:21:D7 (Samsung Electronics)
+
+Nmap scan report for 192.168.1.54
+Host is up (0.0032s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  open   http
+443/tcp closed https
+MAC Address: 8C:AE:89:04:01:BD (Y-cam Solutions)
+
+Nmap scan report for 192.168.1.56
+Host is up (0.0035s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: CC:B1:1A:64:21:96 (Samsung Electronics)
+
+Nmap scan report for 192.168.1.57
+Host is up (0.043s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  open     domain
+80/tcp  filtered http
+443/tcp filtered https
+MAC Address: 98:2C:BC:AB:09:7D (Intel Corporate)
+
+Nmap scan report for 192.168.1.59
+Host is up (0.0053s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 84:8F:69:05:8D:B7 (Dell)
+
+Nmap scan report for 192.168.1.60
+Host is up (0.052s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 7C:D9:5C:AC:10:7A (Google)
+
+Nmap scan report for 192.168.1.61
+Host is up (0.0036s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 84:8F:69:05:8D:4F (Dell)
+
+Nmap scan report for 192.168.1.62
+Host is up (0.084s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  filtered domain
+80/tcp  filtered http
+443/tcp filtered https
+MAC Address: F4:96:34:E7:A7:84 (Intel Corporate)
+
+Nmap scan report for 192.168.1.66
+Host is up (0.039s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  open     domain
+80/tcp  filtered http
+443/tcp filtered https
+MAC Address: F0:E4:A2:15:1E:67 (Huawei Technologies)
+
+Nmap scan report for 192.168.1.68
+Host is up (0.0047s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  open   http
+443/tcp closed https
+MAC Address: 8C:AE:89:04:01:BC (Y-cam Solutions)
+
+Nmap scan report for 192.168.1.73
+Host is up (0.0062s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  open   http
+443/tcp closed https
+MAC Address: 00:80:A3:C4:99:78 (Lantronix)
+
+Nmap scan report for 192.168.1.76
+Host is up (0.0041s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  open   http
+443/tcp closed https
+MAC Address: 8C:AE:90:00:52:6A (Unknown)
+
+Nmap scan report for 192.168.1.80
+Host is up (0.0058s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 00:1E:4F:25:6D:6F (Dell)
+
+Nmap scan report for 192.168.1.81
+Host is up (0.0047s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: C8:1F:66:FF:4D:5A (Dell)
+
+Nmap scan report for 192.168.1.82
+Host is up (0.0053s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: C8:1F:66:FF:85:1A (Dell)
+
+Nmap scan report for 192.168.1.83
+Host is up (0.0054s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: C8:1F:66:FF:9B:82 (Dell)
+
+Nmap scan report for 192.168.1.84
+Host is up (0.0051s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 10:98:36:99:28:BB (Dell)
+
+Nmap scan report for 192.168.1.85
+Host is up (0.0055s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: C8:1F:66:FF:85:22 (Dell)
+
+Nmap scan report for 192.168.1.86
+Host is up (0.0031s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: C8:1F:66:FF:8A:A2 (Dell)
+
+Nmap scan report for 192.168.1.87
+Host is up (0.0040s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: C8:1F:66:FF:44:52 (Dell)
+
+Nmap scan report for 192.168.1.88
+Host is up (0.0039s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: C8:1F:66:FC:56:40 (Dell)
+
+Nmap scan report for 192.168.1.89
+Host is up (0.0053s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: C8:1F:66:FF:86:4C (Dell)
+
+Nmap scan report for 192.168.1.90
+Host is up (0.0039s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 5C:F9:DD:DB:8B:59 (Dell)
+
+Nmap scan report for 192.168.1.91
+Host is up (0.0028s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: C8:1F:66:FF:9B:94 (Dell)
+
+Nmap scan report for 192.168.1.92
+Host is up (0.0031s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 5C:F9:DD:D9:42:E3 (Dell)
+
+Nmap scan report for 192.168.1.93
+Host is up (0.0038s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: C8:1F:66:FF:4F:E0 (Dell)
+
+Nmap scan report for 192.168.1.94
+Host is up (0.0039s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 5C:F9:DD:DB:84:7D (Dell)
+
+Nmap scan report for 192.168.1.95
+Host is up (0.0041s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: C8:1F:66:FB:F4:74 (Dell)
+
+Nmap scan report for 192.168.1.96
+Host is up (0.0031s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 5C:F9:DD:DB:84:EF (Dell)
+
+Nmap scan report for 192.168.1.97
+Host is up (0.0045s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  open     domain
+80/tcp  filtered http
+443/tcp filtered https
+MAC Address: 1C:1B:0D:BA:1B:1B (Giga-byte Technology)
+
+Nmap scan report for 192.168.1.101
+Host is up (0.0077s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  open   http
+443/tcp closed https
+MAC Address: 8C:AE:90:00:52:6F (Unknown)
+
+Nmap scan report for 192.168.1.121
+Host is up (0.020s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  filtered domain
+80/tcp  filtered http
+443/tcp filtered https
+MAC Address: 40:8D:5C:60:CD:52 (Giga-byte Technology)
+
+Nmap scan report for 192.168.1.123
+Host is up (0.0034s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  filtered domain
+80/tcp  filtered http
+443/tcp filtered https
+MAC Address: 40:8D:5C:60:CD:86 (Giga-byte Technology)
+
+Nmap scan report for 192.168.1.142
+Host is up (0.014s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  filtered domain
+80/tcp  filtered http
+443/tcp filtered https
+MAC Address: FC:AA:14:6F:71:55 (Giga-byte Technology)
+
+Nmap scan report for 192.168.1.158
+Host is up (0.044s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  filtered domain
+80/tcp  filtered http
+443/tcp filtered https
+MAC Address: BC:A5:A9:36:12:4F (Apple)
+
+Nmap scan report for 192.168.1.159
+Host is up (0.0040s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  filtered domain
+80/tcp  filtered http
+443/tcp filtered https
+MAC Address: 00:22:19:86:2A:31 (Dell)
+
+Nmap scan report for 192.168.1.160
+Host is up (0.0045s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 00:22:19:85:7A:17 (Dell)
+
+Nmap scan report for 192.168.1.161
+Host is up (0.0070s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 00:22:19:86:58:83 (Dell)
+
+Nmap scan report for 192.168.1.162
+Host is up (0.0079s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 00:22:19:86:33:B8 (Dell)
+
+Nmap scan report for 192.168.1.163
+Host is up (0.0078s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 00:22:19:86:41:57 (Dell)
+
+Nmap scan report for 192.168.1.164
+Host is up (0.060s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 00:22:19:86:5F:3D (Dell)
+
+Nmap scan report for 192.168.1.175
+Host is up (0.014s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 54:9F:35:1E:7F:A8 (Dell)
+
+Nmap scan report for 192.168.1.201
+Host is up (0.0030s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp filtered https
+MAC Address: 00:15:5D:01:2F:00 (Microsoft)
+
+Nmap scan report for 192.168.1.202
+Host is up (0.0018s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  open     domain
+80/tcp  filtered http
+443/tcp filtered https
+MAC Address: 00:15:5D:01:54:00 (Microsoft)
+
+Nmap scan report for 192.168.1.203
+Host is up (0.0029s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp filtered https
+MAC Address: 00:15:5D:28:C1:00 (Microsoft)
+
+Nmap scan report for 192.168.1.204
+Host is up (0.0043s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 80:C1:6E:67:F0:50 (Hewlett Packard)
+
+Nmap scan report for 192.168.1.205
+Host is up (0.0013s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  open     domain
+80/tcp  filtered http
+443/tcp filtered https
+MAC Address: 00:15:5D:28:C3:00 (Microsoft)
+
+Nmap scan report for 192.168.1.206
+Host is up (0.0029s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 74:86:7A:CF:42:70 (Dell)
+
+Nmap scan report for 192.168.1.207
+Host is up (0.0033s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 54:9F:35:1E:78:38 (Dell)
+
+Nmap scan report for 192.168.1.208
+Host is up (0.0036s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 54:9F:35:21:B1:1E (Dell)
+
+Nmap scan report for 192.168.1.209
+Host is up (0.0033s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 00:C0:FF:13:99:DC (Seagate Cloud Systems)
+
+Nmap scan report for 192.168.1.210
+Host is up (0.0030s latency).
+
+PORT    STATE SERVICE
+22/tcp  open  ssh
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: 00:C0:FF:15:04:DD (Seagate Cloud Systems)
+
+Nmap scan report for 192.168.1.217
+Host is up (0.0032s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 54:9F:35:21:7D:FE (Dell)
+
+Nmap scan report for 192.168.1.218
+Host is up (0.0036s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 54:9F:35:21:B0:4E (Dell)
+
+Nmap scan report for 192.168.1.219
+Host is up (0.0038s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 54:9F:35:21:C7:82 (Dell)
+
+Nmap scan report for 192.168.1.220
+Host is up (0.0033s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 74:86:7A:D5:6C:A6 (Dell)
+
+Nmap scan report for 192.168.1.221
+Host is up (0.0035s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  open   http
+443/tcp open   https
+MAC Address: 44:D2:44:ED:2C:46 (Seiko Epson)
+
+Nmap scan report for 192.168.1.222
+Host is up (0.0032s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  open   domain
+80/tcp  open   http
+443/tcp open   https
+MAC Address: EC:B1:D7:F8:48:15 (Hewlett Packard)
+
+Nmap scan report for 192.168.1.223
+Host is up (0.0069s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 74:86:7A:F1:D7:7E (Dell)
+
+Nmap scan report for 192.168.1.224
+Host is up (0.0074s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 74:86:7A:F1:E1:EE (Dell)
+
+Nmap scan report for 192.168.1.225
+Host is up (0.0075s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 74:86:7A:EF:AA:52 (Dell)
+
+Nmap scan report for 192.168.1.226
+Host is up (0.0076s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 54:9F:35:21:7D:EE (Dell)
+
+Nmap scan report for 192.168.1.227
+Host is up (0.0082s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 54:9F:35:1E:72:B8 (Dell)
+
+Nmap scan report for 192.168.1.228
+Host is up (0.0075s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 54:9F:35:1E:6B:38 (Dell)
+
+Nmap scan report for 192.168.1.229
+Host is up (0.0072s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: 54:9F:35:1E:80:38 (Dell)
+
+Nmap scan report for 192.168.1.230
+Host is up (0.0077s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  open   http
+443/tcp closed https
+MAC Address: B8:27:EB:EC:5A:E7 (Raspberry Pi Foundation)
+
+Nmap scan report for 192.168.1.231
+Host is up (0.0086s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: B8:27:EB:DD:CF:12 (Raspberry Pi Foundation)
+
+Nmap scan report for 192.168.1.232
+Host is up (0.0086s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: B8:27:EB:4D:DB:7A (Raspberry Pi Foundation)
+
+Nmap scan report for 192.168.1.233
+Host is up (0.0077s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: B8:27:EB:97:C9:90 (Raspberry Pi Foundation)
+
+Nmap scan report for 192.168.1.234
+Host is up (0.0072s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: B8:27:EB:9F:39:19 (Raspberry Pi Foundation)
+
+Nmap scan report for 192.168.1.235
+Host is up (0.0077s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: B8:27:EB:D4:FD:7C (Raspberry Pi Foundation)
+
+Nmap scan report for 192.168.1.236
+Host is up (0.0078s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: B8:27:EB:93:F1:35 (Raspberry Pi Foundation)
+
+Nmap scan report for 192.168.1.237
+Host is up (0.0077s latency).
+
+PORT    STATE  SERVICE
+22/tcp  open   ssh
+53/tcp  open   domain
+80/tcp  closed http
+443/tcp closed https
+MAC Address: B8:27:EB:03:26:C0 (Raspberry Pi Foundation)
+
+Nmap scan report for 192.168.1.254
+Host is up (0.0040s latency).
+
+PORT    STATE    SERVICE
+22/tcp  filtered ssh
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: 24:09:95:75:0B:76 (Huawei Technologies)
+
+Nmap scan report for 192.168.1.63
+Host is up (0.000097s latency).
+
+PORT    STATE  SERVICE
+22/tcp  closed ssh
+53/tcp  closed domain
+80/tcp  closed http
+443/tcp closed https

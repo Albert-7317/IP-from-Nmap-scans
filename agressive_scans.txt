@@ -1,0 +1,2171 @@
+7 (RSA)
+|_  256 ce:79:e3:86:cf:42:99:b5:6f:31:df:b9:0c:88:ec:b3 (ECDSA)
+53/tcp   open  domain    dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+80/tcp   open  http      Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.91/start.html
+443/tcp  open  ssl/http  Dell iDRAC 8 admin httpd (time zone: CST)
+| ssl-cert: Subject: commonName=idrac/organizationName=Dell Inc./stateOrProvinceName=Texas/countryName=US
+| Not valid before: 2015-04-29T02:45:00
+|_Not valid after:  2025-04-30T02:45:00
+|_ssl-date: TLS randomness does not represent time
+5900/tcp open  websocket libwebsockets
+| ssl-cert: Subject: commonName=idrac/organizationName=Dell Inc./stateOrProvinceName=Texas/countryName=US
+| Not valid before: 2015-04-29T02:45:00
+|_Not valid after:  2025-04-30T02:45:00
+MAC Address: C8:1F:66:FF:9B:94 (Dell)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   6.97 ms 192.168.1.91
+
+Nmap scan report for 192.168.1.92
+Host is up (0.0061s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE   VERSION
+22/tcp   open  ssh       OpenSSH 7.0 (protocol 2.0)
+| ssh-hostkey:
+|   2048 6c:1f:b4:99:41:91:0b:6b:6f:e4:6c:95:13:42:91:ab (RSA)
+|_  256 85:d3:86:7e:6a:4a:8c:2a:35:09:78:bf:6a:1e:0d:7a (ECDSA)
+53/tcp   open  domain    dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+80/tcp   open  http      Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.92/start.html
+443/tcp  open  ssl/http  Dell iDRAC 8 admin httpd (time zone: CST)
+| ssl-cert: Subject: commonName=idrac-DYP95Y1/organizationName=Dell Inc./stateOrProvinceName=Texas/countryName=US
+| Not valid before: 2021-10-22T07:19:00
+|_Not valid after:  2031-10-23T07:19:50
+|_ssl-date: TLS randomness does not represent time
+| http-title: Not Found
+|_Requested resource was https://192.168.1.92/start.html
+5900/tcp open  websocket libwebsockets
+| ssl-cert: Subject: commonName=idrac-DYP95Y1/organizationName=Dell Inc./stateOrProvinceName=Texas/countryName=US
+| Not valid before: 2021-10-22T07:19:00
+|_Not valid after:  2031-10-23T07:19:50
+MAC Address: 5C:F9:DD:D9:42:E3 (Dell)
+Device type: general purpose
+Running: Linux 2.6.X|3.X
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/o:linux:linux_kernel:3
+OS details: Linux 2.6.32 - 3.10
+Network Distance: 1 hop
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   6.08 ms 192.168.1.92
+
+Nmap scan report for 192.168.1.93
+Host is up (0.0067s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE   VERSION
+22/tcp   open  ssh       OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey:
+|   2048 78:18:f5:b1:d1:26:3b:40:8e:f5:af:2c:13:a1:85:11 (RSA)
+|_  256 55:ae:f4:33:50:2a:75:29:1f:5b:13:10:e4:ce:35:5e (ECDSA)
+53/tcp   open  domain    dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+80/tcp   open  http      Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.93/start.html
+443/tcp  open  ssl/http  Dell iDRAC 8 admin httpd (time zone: CST)
+| ssl-cert: Subject: commonName=idrac/organizationName=Dell Inc./stateOrProvinceName=Texas/countryName=US
+| Not valid before: 2015-04-24T20:58:00
+|_Not valid after:  2025-04-25T20:58:00
+|_ssl-date: TLS randomness does not represent time
+5900/tcp open  websocket libwebsockets
+| ssl-cert: Subject: commonName=idrac/organizationName=Dell Inc./stateOrProvinceName=Texas/countryName=US
+| Not valid before: 2015-04-24T20:58:00
+|_Not valid after:  2025-04-25T20:58:00
+MAC Address: C8:1F:66:FF:4F:E0 (Dell)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   6.74 ms 192.168.1.93
+
+Nmap scan report for 192.168.1.94
+Host is up (0.0072s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE   VERSION
+22/tcp   open  ssh       OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey:
+|   2048 7d:03:84:d5:a7:68:47:2e:2c:52:aa:1d:23:9a:09:77 (RSA)
+|_  256 dd:7f:6b:53:89:78:6e:12:1c:c5:eb:d2:26:a5:69:de (ECDSA)
+53/tcp   open  domain    dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+80/tcp   open  http      Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.94/start.html
+443/tcp  open  ssl/http  Dell iDRAC 8 admin httpd (time zone: CST)
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=iDRAC7 default certificate/organizationName=Dell Inc./stateOrProvinceName=Texas/countryName=US
+| Not valid before: 2011-06-07T23:54:19
+|_Not valid after:  2021-06-04T23:54:19
+5900/tcp open  websocket libwebsockets
+| ssl-cert: Subject: commonName=iDRAC7 default certificate/organizationName=Dell Inc./stateOrProvinceName=Texas/countryName=US
+| Not valid before: 2011-06-07T23:54:19
+|_Not valid after:  2021-06-04T23:54:19
+MAC Address: 5C:F9:DD:DB:84:7D (Dell)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   7.21 ms 192.168.1.94
+
+Nmap scan report for 192.168.1.95
+Host is up (0.0077s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE   VERSION
+22/tcp   open  ssh       OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey:
+|   2048 4f:30:ac:34:12:38:c9:a8:e4:b4:52:d7:00:fa:b9:35 (RSA)
+|_  256 4c:d9:45:8c:45:f6:d3:6a:a6:1a:36:c2:89:7a:e1:00 (ECDSA)
+53/tcp   open  domain    dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+80/tcp   open  http      Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.95/start.html
+443/tcp  open  ssl/http  Dell iDRAC 8 admin httpd (time zone: CST)
+| ssl-cert: Subject: commonName=idrac-/organizationName=Dell Inc./stateOrProvinceName=Texas/countryName=US
+| Not valid before: 2019-11-18T00:30:00
+|_Not valid after:  2029-11-19T00:30:00
+|_ssl-date: TLS randomness does not represent time
+5900/tcp open  websocket libwebsockets
+| ssl-cert: Subject: commonName=idrac-/organizationName=Dell Inc./stateOrProvinceName=Texas/countryName=US
+| Not valid before: 2019-11-18T00:30:00
+|_Not valid after:  2029-11-19T00:30:00
+MAC Address: C8:1F:66:FB:F4:74 (Dell)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   7.66 ms 192.168.1.95
+
+Nmap scan report for 192.168.1.96
+Host is up (0.0078s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE   VERSION
+22/tcp   open  ssh       OpenSSH 7.4 (protocol 2.0)
+| ssh-hostkey:
+|   2048 d3:e7:71:6a:bc:dc:42:6d:0f:06:c0:64:85:8d:e8:54 (RSA)
+|_  256 fa:12:d6:f6:da:14:f1:d7:25:94:a0:81:09:48:90:6c (ECDSA)
+53/tcp   open  domain    dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+80/tcp   open  http      Dell iDRAC 8 admin httpd (time zone: CST)
+|_http-title: Did not follow redirect to https://192.168.1.96/start.html
+443/tcp  open  ssl/http  Dell iDRAC 8 admin httpd (time zone: CST)
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=iDRAC7 default certificate/organizationName=Dell Inc./stateOrProvinceName=Texas/countryName=US
+| Not valid before: 2011-06-07T23:54:19
+|_Not valid after:  2021-06-04T23:54:19
+5900/tcp open  websocket libwebsockets
+| ssl-cert: Subject: commonName=iDRAC7 default certificate/organizationName=Dell Inc./stateOrProvinceName=Texas/countryName=US
+| Not valid before: 2011-06-07T23:54:19
+|_Not valid after:  2021-06-04T23:54:19
+MAC Address: 5C:F9:DD:DB:84:EF (Dell)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: CPE: cpe:/o:dell:idrac8_firmware
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   7.79 ms 192.168.1.96
+
+Nmap scan report for 192.168.1.97
+Host is up (0.0043s latency).
+Not shown: 995 filtered tcp ports (no-response)
+PORT     STATE SERVICE      VERSION
+53/tcp   open  domain       dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+135/tcp  open  msrpc        Microsoft Windows RPC
+139/tcp  open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds Windows 10 Pro 19042 microsoft-ds (workgroup: FRESH)
+5357/tcp open  http         Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Service Unavailable
+MAC Address: 1C:1B:0D:BA:1B:1B (Giga-byte Technology)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (93%), OpenWrt Designated Driver (Linux 4.1) (92%), OpenWrt (Linux 3.18) (91%), Linux 3.10 - 4.11 (87%), Linux 3.2 - 4.9 (87%), Asus RT-AC66U WAP (87%), Dell Integrated Remote Access Controller (iDRAC7) (87%), OpenWrt Attitude Adjustment (Linux 3.3) - Barrier Breaker (Linux 3.8) (87%), OpenWrt Barrier Breaker (Linux 3.10) (87%), Linux 2.6.32 - 3.10 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Host: CIT-WKSTRN-143; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 36d21h14m35s, deviation: 19s, median: 36d21h14m24s
+| smb2-time:
+|   date: 2022-02-03T12:31:57
+|_  start_date: N/A
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode:
+|   3.1.1:
+|_    Message signing enabled but not required
+|_nbstat: NetBIOS name: CIT-WKSTRN-143, NetBIOS user: <unknown>, NetBIOS MAC: 1c:1b:0d:ba:1b:1b (Giga-byte Technology)
+| smb-os-discovery:
+|   OS: Windows 10 Pro 19042 (Windows 10 Pro 6.3)
+|   OS CPE: cpe:/o:microsoft:windows_10::-
+|   Computer name: CIT-WKSTRN-143
+|   NetBIOS computer name: CIT-WKSTRN-143\x00
+|   Domain name: FRESH.Local
+|   Forest name: FRESH.Local
+|   FQDN: CIT-WKSTRN-143.FRESH.Local
+|_  System time: 2022-02-03T12:32:29+00:00
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.26 ms 192.168.1.97
+
+Nmap scan report for 192.168.1.101
+Host is up (0.0035s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT      STATE SERVICE VERSION
+53/tcp    open  domain  dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+80/tcp    open  rtsp    Y-cam HomeMonitor HD Pro rtspd
+|_http-server-header: Webs
+| http-title: Login
+|_Requested resource was http://192.168.1.101/default.asp
+554/tcp   open  rtsp    Y-cam HomeMonitor HD Pro rtspd
+49152/tcp open  upnp    Portable SDK for UPnP devices 1.4.3 (Linux 2.6.28; UPnP 1.0)
+MAC Address: 8C:AE:90:00:52:6F (Unknown)
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (97%), Linux 3.2 - 4.9 (94%), Dell Integrated Remote Access Controller (iDRAC7) (94%), Linux 2.6.32 - 3.10 (94%), Philips Hue Bridge 2.0 (Linux 3.14) (94%), OpenWrt Designated Driver (Linux 4.1) (93%), Arris TG562G/CT cable modem (93%), Arris TG862G/CT cable modem (93%), OpenWrt Barrier Breaker (Linux 3.10) (93%), Linux 4.4 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Linux; Device: webcam; CPE: cpe:/h:y-cam:homemonitor_hd_pro, cpe:/o:linux:linux_kernel:2.6.28
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   3.50 ms 192.168.1.101
+
+Nmap scan report for 192.168.1.121
+Host is up (0.0045s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT    STATE SERVICE      VERSION
+53/tcp  open  domain       dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+135/tcp open  msrpc        Microsoft Windows RPC
+139/tcp open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds Windows 10 Pro 19042 microsoft-ds (workgroup: FRESH)
+MAC Address: 40:8D:5C:60:CD:52 (Giga-byte Technology)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (93%), OpenWrt Designated Driver (Linux 4.1) (93%), OpenWrt (Linux 3.18) (91%), Linux 3.10 - 4.11 (87%), Linux 3.2 - 4.9 (87%), Asus RT-AC66U WAP (87%), Dell Integrated Remote Access Controller (iDRAC7) (87%), OpenWrt Attitude Adjustment (Linux 3.3) - Barrier Breaker (Linux 3.8) (87%), OpenWrt Barrier Breaker (Linux 3.10) (87%), Linux 2.6.32 - 3.10 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Host: CIT-WKSTRN-121; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: CIT-WKSTRN-121, NetBIOS user: <unknown>, NetBIOS MAC: 40:8d:5c:60:cd:52 (Giga-byte Technology)
+| smb2-time:
+|   date: 2022-02-03T12:34:29
+|_  start_date: N/A
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode:
+|   3.1.1:
+|_    Message signing enabled but not required
+|_clock-skew: mean: 36d21h14m27s, deviation: 4s, median: 36d21h14m24s
+| smb-os-discovery:
+|   OS: Windows 10 Pro 19042 (Windows 10 Pro 6.3)
+|   OS CPE: cpe:/o:microsoft:windows_10::-
+|   Computer name: CIT-WKSTRN-121
+|   NetBIOS computer name: CIT-WKSTRN-121\x00
+|   Domain name: FRESH.Local
+|   Forest name: FRESH.Local
+|   FQDN: CIT-WKSTRN-121.FRESH.Local
+|_  System time: 2022-02-03T12:32:11+00:00
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.49 ms 192.168.1.121
+
+Nmap scan report for 192.168.1.123
+Host is up (0.0057s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT    STATE SERVICE      VERSION
+53/tcp  open  domain       dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+135/tcp open  msrpc        Microsoft Windows RPC
+139/tcp open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds Windows 10 Pro 19042 microsoft-ds (workgroup: FRESH)
+MAC Address: 40:8D:5C:60:CD:86 (Giga-byte Technology)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (93%), OpenWrt Designated Driver (Linux 4.1) (93%), OpenWrt (Linux 3.18) (91%), Linux 3.10 - 4.11 (87%), Linux 3.2 - 4.9 (87%), Asus RT-AC66U WAP (87%), Dell Integrated Remote Access Controller (iDRAC7) (87%), OpenWrt Attitude Adjustment (Linux 3.3) - Barrier Breaker (Linux 3.8) (87%), OpenWrt Barrier Breaker (Linux 3.10) (87%), Linux 2.6.32 - 3.10 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Host: CIT-WKSTRN-123; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb-os-discovery:
+|   OS: Windows 10 Pro 19042 (Windows 10 Pro 6.3)
+|   OS CPE: cpe:/o:microsoft:windows_10::-
+|   Computer name: CIT-WKSTRN-123
+|   NetBIOS computer name: CIT-WKSTRN-123\x00
+|   Domain name: FRESH.Local
+|   Forest name: FRESH.Local
+|   FQDN: CIT-WKSTRN-123.FRESH.Local
+|_  System time: 2022-02-03T12:34:49+00:00
+|_nbstat: NetBIOS name: CIT-WKSTRN-123, NetBIOS user: <unknown>, NetBIOS MAC: 40:8d:5c:60:cd:86 (Giga-byte Technology)
+| smb2-security-mode:
+|   3.1.1:
+|_    Message signing enabled but not required
+|_clock-skew: mean: 36d21h15m19s, deviation: 1m34s, median: 36d21h14m24s
+| smb2-time:
+|   date: 2022-02-03T12:34:53
+|_  start_date: N/A
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   5.71 ms 192.168.1.123
+
+Nmap scan report for 192.168.1.142
+Host is up (0.0050s latency).
+Not shown: 996 filtered tcp ports (no-response)
+PORT    STATE SERVICE      VERSION
+53/tcp  open  domain       dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+135/tcp open  msrpc        Microsoft Windows RPC
+139/tcp open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds Windows 10 Pro 19044 microsoft-ds (workgroup: FRESH)
+MAC Address: FC:AA:14:6F:71:55 (Giga-byte Technology)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (93%), OpenWrt (Linux 3.18) (91%), OpenWrt Designated Driver (Linux 4.1) (90%), Linux 3.10 - 4.11 (87%), Linux 3.2 - 4.9 (87%), Dell Integrated Remote Access Controller (iDRAC7) (87%), OpenWrt Attitude Adjustment (Linux 3.3) - Barrier Breaker (Linux 3.8) (87%), OpenWrt Barrier Breaker (Linux 3.10) (87%), Linux 2.6.32 - 3.10 (86%), OpenWrt Chaos Calmer 15.05 (Linux 3.18) (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Host: CIT-WKSTRN-142; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb-os-discovery:
+|   OS: Windows 10 Pro 19044 (Windows 10 Pro 6.3)
+|   OS CPE: cpe:/o:microsoft:windows_10::-
+|   Computer name: CIT-WKSTRN-142
+|   NetBIOS computer name: CIT-WKSTRN-142\x00
+|   Domain name: FRESH.Local
+|   Forest name: FRESH.Local
+|   FQDN: CIT-WKSTRN-142.FRESH.Local
+|_  System time: 2022-02-03T12:34:42+00:00
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-time:
+|   date: 2022-02-03T12:34:42
+|_  start_date: N/A
+|_nbstat: NetBIOS name: CIT-WKSTRN-142, NetBIOS user: <unknown>, NetBIOS MAC: fc:aa:14:6f:71:55 (Giga-byte Technology)
+|_clock-skew: mean: 36d21h15m17s, deviation: 1m29s, median: 36d21h14m25s
+| smb2-security-mode:
+|   3.1.1:
+|_    Message signing enabled but not required
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   5.01 ms 192.168.1.142
+
+Nmap scan report for 192.168.1.158
+Host is up (0.16s latency).
+All 1000 scanned ports on 192.168.1.158 are in ignored states.
+Not shown: 1000 filtered tcp ports (no-response)
+MAC Address: BC:A5:A9:36:12:4F (Apple)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+TRACEROUTE
+HOP RTT       ADDRESS
+1   156.85 ms 192.168.1.158
+
+Nmap scan report for 192.168.1.159
+Host is up (0.0052s latency).
+Not shown: 992 filtered tcp ports (no-response)
+PORT      STATE SERVICE            VERSION
+53/tcp    open  domain             dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+2179/tcp  open  vmrdp?
+3389/tcp  open  ssl/ms-wbt-server?
+| rdp-ntlm-info:
+|   Target_Name: FRESH
+|   NetBIOS_Domain_Name: FRESH
+|   NetBIOS_Computer_Name: FCS-WINHPV-001
+|   DNS_Domain_Name: FRESH.Local
+|   DNS_Computer_Name: FCS-WINHPV-001.FRESH.Local
+|   DNS_Tree_Name: FRESH.Local
+|   Product_Version: 6.3.9600
+|_  System_Time: 2022-02-03T12:32:25+00:00
+|_ssl-date: 2022-02-03T12:36:53+00:00; +36d21h14m25s from scanner time.
+| ssl-cert: Subject: commonName=FCS-WINHPV-001.FRESH.Local
+| Not valid before: 2021-12-01T12:30:05
+|_Not valid after:  2022-06-02T12:30:05
+49155/tcp open  msrpc              Microsoft Windows RPC
+49157/tcp open  msrpc              Microsoft Windows RPC
+MAC Address: 00:22:19:86:2A:31 (Dell)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (93%), OpenWrt Designated Driver (Linux 4.1) (93%), OpenWrt (Linux 3.18) (90%), Linux 3.10 - 4.11 (87%), Linux 3.2 - 4.9 (87%), OpenWrt Attitude Adjustment (Linux 3.3) - Barrier Breaker (Linux 3.8) (87%), OpenWrt Barrier Breaker (Linux 3.10) (87%), Linux 2.6.32 - 3.10 (86%), OpenWrt Chaos Calmer 15.05 (Linux 3.18) (86%), Linux 3.18 (OpenWrt) (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 36d21h14m25s, deviation: 0s, median: 36d21h14m24s
+| smb2-security-mode:
+|   3.0.2:
+|_    Message signing enabled but not required
+| smb2-time:
+|   date: 2022-02-03T12:34:22
+|_  start_date: 2021-11-26T12:07:39
+|_nbstat: NetBIOS name: FCS-WINHPV-001, NetBIOS user: <unknown>, NetBIOS MAC: 00:22:19:86:2a:31 (Dell)
+| smb-security-mode:
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   5.17 ms 192.168.1.159
+
+Nmap scan report for 192.168.1.160
+Host is up (0.0034s latency).
+Not shown: 987 closed tcp ports (reset)
+PORT      STATE SERVICE            VERSION
+53/tcp    open  domain             dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+2179/tcp  open  vmrdp?
+3389/tcp  open  ssl/ms-wbt-server?
+| rdp-ntlm-info:
+|   Target_Name: FRESH
+|   NetBIOS_Domain_Name: FRESH
+|   NetBIOS_Computer_Name: FCS-WINHPV-002
+|   DNS_Domain_Name: FRESH.Local
+|   DNS_Computer_Name: FCS-WINHPV-002.FRESH.Local
+|   DNS_Tree_Name: FRESH.Local
+|   Product_Version: 6.3.9600
+|_  System_Time: 2022-02-03T12:35:05+00:00
+| ssl-cert: Subject: commonName=FCS-WINHPV-002.FRESH.Local
+| Not valid before: 2021-12-02T01:25:31
+|_Not valid after:  2022-06-03T01:25:31
+|_ssl-date: 2022-02-03T12:36:46+00:00; +36d21h14m26s from scanner time.
+49152/tcp open  msrpc              Microsoft Windows RPC
+49153/tcp open  msrpc              Microsoft Windows RPC
+49154/tcp open  msrpc              Microsoft Windows RPC
+49155/tcp open  msrpc              Microsoft Windows RPC
+49156/tcp open  msrpc              Microsoft Windows RPC
+49157/tcp open  msrpc              Microsoft Windows RPC
+49158/tcp open  msrpc              Microsoft Windows RPC
+MAC Address: 00:22:19:85:7A:17 (Dell)
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (91%), OpenWrt (Linux 3.18) (89%), OpenWrt Designated Driver (Linux 4.1) (89%), Microsoft Windows Server 2008 R2 (89%), Microsoft Windows 7 SP1 (89%), Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1 (89%), Microsoft Windows 7 (88%), Linux 3.2 - 4.9 (88%), Microsoft Windows Vista SP1 (88%), OpenWrt Barrier Breaker (Linux 3.10) (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 36d21h14m25s, deviation: 0s, median: 36d21h14m25s
+|_nbstat: NetBIOS name: FCS-WINHPV-002, NetBIOS user: <unknown>, NetBIOS MAC: 00:22:19:85:7a:17 (Dell)
+| smb2-security-mode:
+|   3.0.2:
+|_    Message signing enabled but not required
+| smb2-time:
+|   date: 2022-02-03T12:34:34
+|_  start_date: 2021-11-12T12:25:47
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   3.43 ms 192.168.1.160
+
+Nmap scan report for 192.168.1.161
+Host is up (0.0037s latency).
+Not shown: 988 closed tcp ports (reset)
+PORT      STATE SERVICE            VERSION
+53/tcp    open  domain             dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+2179/tcp  open  vmrdp?
+3389/tcp  open  ssl/ms-wbt-server?
+| rdp-ntlm-info:
+|   Target_Name: FCS-WINHPV-003
+|   NetBIOS_Domain_Name: FCS-WINHPV-003
+|   NetBIOS_Computer_Name: FCS-WINHPV-003
+|   DNS_Domain_Name: FCS-WINHPV-003
+|   DNS_Computer_Name: FCS-WINHPV-003
+|   Product_Version: 6.3.9600
+|_  System_Time: 2022-02-03T12:33:39+00:00
+|_ssl-date: 2022-02-03T12:36:36+00:00; +36d21h14m23s from scanner time.
+| ssl-cert: Subject: commonName=FCS-WINHPV-003
+| Not valid before: 2021-09-20T13:13:11
+|_Not valid after:  2022-03-22T13:13:11
+49152/tcp open  msrpc              Microsoft Windows RPC
+49153/tcp open  msrpc              Microsoft Windows RPC
+49154/tcp open  msrpc              Microsoft Windows RPC
+49155/tcp open  msrpc              Microsoft Windows RPC
+49156/tcp open  msrpc              Microsoft Windows RPC
+49157/tcp open  msrpc              Microsoft Windows RPC
+MAC Address: 00:22:19:86:58:83 (Dell)
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (91%), Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1 (89%), OpenWrt (Linux 3.18) (89%), Linux 3.2 - 4.9 (88%), OpenWrt Barrier Breaker (Linux 3.10) (88%), Microsoft Windows Server 2008 R2 (88%), Microsoft Windows 7 SP1 (88%), Microsoft Windows Server 2008 SP2 (88%), Microsoft Windows Server 2008 SP1 (88%), Microsoft Windows Embedded POSready 7 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 36d21h14m23s, deviation: 0s, median: 36d21h14m22s
+|_nbstat: NetBIOS name: FCS-WINHPV-003, NetBIOS user: <unknown>, NetBIOS MAC: 00:22:19:86:58:83 (Dell)
+| smb2-security-mode:
+|   3.0.2:
+|_    Message signing enabled but not required
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-time:
+|   date: 2022-02-03T12:34:33
+|_  start_date: 2021-11-12T12:44:50
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   3.74 ms 192.168.1.161
+
+Nmap scan report for 192.168.1.162
+Host is up (0.0073s latency).
+Not shown: 988 closed tcp ports (reset)
+PORT      STATE SERVICE            VERSION
+53/tcp    open  domain             dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+2179/tcp  open  vmrdp?
+3389/tcp  open  ssl/ms-wbt-server?
+| rdp-ntlm-info:
+|   Target_Name: FCS-WINHPV-005
+|   NetBIOS_Domain_Name: FCS-WINHPV-005
+|   NetBIOS_Computer_Name: FCS-WINHPV-005
+|   DNS_Domain_Name: FCS-WINHPV-005
+|   DNS_Computer_Name: FCS-WINHPV-005
+|   Product_Version: 6.3.9600
+|_  System_Time: 2022-02-03T12:32:14+00:00
+| ssl-cert: Subject: commonName=FCS-WINHPV-005
+| Not valid before: 2021-10-02T01:33:02
+|_Not valid after:  2022-04-03T01:33:02
+|_ssl-date: 2022-02-03T12:36:43+00:00; +36d21h14m23s from scanner time.
+49152/tcp open  msrpc              Microsoft Windows RPC
+49153/tcp open  msrpc              Microsoft Windows RPC
+49154/tcp open  msrpc              Microsoft Windows RPC
+49155/tcp open  msrpc              Microsoft Windows RPC
+49156/tcp open  msrpc              Microsoft Windows RPC
+49157/tcp open  msrpc              Microsoft Windows RPC
+MAC Address: 00:22:19:86:33:B8 (Dell)
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (91%), OpenWrt Designated Driver (Linux 4.1) (89%), Microsoft Windows Server 2008 R2 (89%), Microsoft Windows 7 SP1 (89%), Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1 (89%), OpenWrt (Linux 3.18) (89%), Microsoft Windows 7 (88%), Linux 3.2 - 4.9 (88%), Microsoft Windows Vista SP1 (88%), OpenWrt Barrier Breaker (Linux 3.10) (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb-security-mode:
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_clock-skew: mean: 36d21h14m23s, deviation: 0s, median: 36d21h14m22s
+|_nbstat: NetBIOS name: FCS-WINHPV-005, NetBIOS user: <unknown>, NetBIOS MAC: 00:22:19:86:33:b8 (Dell)
+| smb2-time:
+|   date: 2022-02-03T12:34:34
+|_  start_date: 2021-11-19T12:26:38
+| smb2-security-mode:
+|   3.0.2:
+|_    Message signing enabled but not required
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   7.29 ms 192.168.1.162
+
+Nmap scan report for 192.168.1.163
+Host is up (0.0050s latency).
+Not shown: 988 closed tcp ports (reset)
+PORT      STATE SERVICE            VERSION
+53/tcp    open  domain             dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+2179/tcp  open  vmrdp?
+3389/tcp  open  ssl/ms-wbt-server?
+| rdp-ntlm-info:
+|   Target_Name: FCS-WINHPV-004
+|   NetBIOS_Domain_Name: FCS-WINHPV-004
+|   NetBIOS_Computer_Name: FCS-WINHPV-004
+|   DNS_Domain_Name: FCS-WINHPV-004
+|   DNS_Computer_Name: FCS-WINHPV-004
+|   Product_Version: 6.3.9600
+|_  System_Time: 2022-02-03T12:35:03+00:00
+| ssl-cert: Subject: commonName=FCS-WINHPV-004
+| Not valid before: 2021-09-05T14:36:31
+|_Not valid after:  2022-03-07T14:36:31
+|_ssl-date: 2022-02-03T12:36:45+00:00; +36d21h14m24s from scanner time.
+49152/tcp open  msrpc              Microsoft Windows RPC
+49153/tcp open  msrpc              Microsoft Windows RPC
+49154/tcp open  msrpc              Microsoft Windows RPC
+49155/tcp open  msrpc              Microsoft Windows RPC
+49156/tcp open  msrpc              Microsoft Windows RPC
+49157/tcp open  msrpc              Microsoft Windows RPC
+MAC Address: 00:22:19:86:41:57 (Dell)
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (91%), OpenWrt (Linux 3.18) (89%), OpenWrt Designated Driver (Linux 4.1) (89%), Microsoft Windows Server 2008 R2 (89%), Microsoft Windows 7 SP1 (89%), Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1 (89%), Microsoft Windows 7 (88%), Linux 3.2 - 4.9 (88%), Microsoft Windows Vista SP1 (88%), OpenWrt Barrier Breaker (Linux 3.10) (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_nbstat: NetBIOS name: FCS-WINHPV-004, NetBIOS user: <unknown>, NetBIOS MAC: 00:22:19:86:41:57 (Dell)
+|_clock-skew: mean: 36d21h14m23s, deviation: 0s, median: 36d21h14m23s
+| smb2-time:
+|   date: 2022-02-03T12:34:34
+|_  start_date: 2021-11-12T12:25:50
+| smb2-security-mode:
+|   3.0.2:
+|_    Message signing enabled but not required
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   5.02 ms 192.168.1.163
+
+Nmap scan report for 192.168.1.164
+Host is up (0.0036s latency).
+Not shown: 988 closed tcp ports (reset)
+PORT      STATE SERVICE            VERSION
+53/tcp    open  domain             dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+2179/tcp  open  vmrdp?
+3389/tcp  open  ssl/ms-wbt-server?
+|_ssl-date: 2022-02-03T12:36:50+00:00; +36d21h14m24s from scanner time.
+| rdp-ntlm-info:
+|   Target_Name: FCS-WINHPV-006
+|   NetBIOS_Domain_Name: FCS-WINHPV-006
+|   NetBIOS_Computer_Name: FCS-WINHPV-006
+|   DNS_Domain_Name: FCS-WINHPV-006
+|   DNS_Computer_Name: FCS-WINHPV-006
+|   Product_Version: 6.3.9600
+|_  System_Time: 2022-02-03T12:35:17+00:00
+| ssl-cert: Subject: commonName=FCS-WINHPV-006
+| Not valid before: 2021-09-12T02:51:07
+|_Not valid after:  2022-03-14T02:51:07
+49152/tcp open  msrpc              Microsoft Windows RPC
+49153/tcp open  msrpc              Microsoft Windows RPC
+49154/tcp open  msrpc              Microsoft Windows RPC
+49155/tcp open  msrpc              Microsoft Windows RPC
+49156/tcp open  msrpc              Microsoft Windows RPC
+49157/tcp open  msrpc              Microsoft Windows RPC
+MAC Address: 00:22:19:86:5F:3D (Dell)
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (91%), Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1 (89%), OpenWrt (Linux 3.18) (89%), Linux 3.2 - 4.9 (88%), OpenWrt Barrier Breaker (Linux 3.10) (88%), Microsoft Windows Server 2008 R2 (88%), Microsoft Windows 7 SP1 (88%), Microsoft Windows Server 2008 SP2 (88%), Microsoft Windows Server 2008 SP1 (88%), Microsoft Windows Embedded POSready 7 (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 36d21h14m24s, deviation: 0s, median: 36d21h14m23s
+|_nbstat: NetBIOS name: FCS-WINHPV-006, NetBIOS user: <unknown>, NetBIOS MAC: 00:22:19:86:5f:3d (Dell)
+| smb2-time:
+|   date: 2022-02-03T12:34:36
+|_  start_date: 2021-11-12T12:27:16
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode:
+|   3.0.2:
+|_    Message signing enabled but not required
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   3.59 ms 192.168.1.164
+
+Nmap scan report for 192.168.1.175
+Host is up (0.0084s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT     STATE SERVICE     VERSION
+22/tcp   open  ssh         OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 6f:0e:43:b2:21:be:d9:68:0c:a8:4f:3b:b2:61:90:87 (RSA)
+|   256 0b:20:3c:ed:fc:4c:80:e5:2c:e0:c9:73:59:bf:04:d9 (ECDSA)
+|_  256 f2:e5:c5:8e:f3:76:f2:53:2c:f3:b4:fa:b8:73:29:ba (ED25519)
+53/tcp   open  domain      dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+3128/tcp open  squid-http?
+7911/tcp open  omapi       ISC (BIND|DHCPD) OMAPI
+8000/tcp open  http-proxy  Squid http proxy 4.10
+|_http-title: ERROR: The requested URL could not be retrieved
+| http-open-proxy: Potentially OPEN proxy.
+|_Methods supported: GET HEAD
+|_http-server-header: squid/4.10
+MAC Address: 54:9F:35:1E:7F:A8 (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   8.42 ms 192.168.1.175
+
+Nmap scan report for 192.168.1.201
+Host is up (0.0064s latency).
+Not shown: 978 filtered tcp ports (no-response)
+PORT      STATE SERVICE            VERSION
+53/tcp    open  domain             dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+80/tcp    open  http               Microsoft IIS httpd 8.5
+|_http-title: IIS Windows Server
+| http-methods:
+|_  Potentially risky methods: TRACE
+88/tcp    open  kerberos-sec       Microsoft Windows Kerberos (server time: 2022-02-03 12:25:05Z)
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+389/tcp   open  ldap               Microsoft Windows Active Directory LDAP (Domain: FRESH.Local, Site: Default-First-Site-Name)
+445/tcp   open  microsoft-ds       Windows Server 2012 R2 Standard 9600 microsoft-ds (workgroup: FRESH)
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http         Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  tcpwrapped
+1801/tcp  open  msmq?
+2103/tcp  open  msrpc              Microsoft Windows RPC
+2105/tcp  open  msrpc              Microsoft Windows RPC
+2107/tcp  open  msrpc              Microsoft Windows RPC
+3268/tcp  open  ldap               Microsoft Windows Active Directory LDAP (Domain: FRESH.Local, Site: Default-First-Site-Name)
+3269/tcp  open  tcpwrapped
+3389/tcp  open  ssl/ms-wbt-server?
+|_ssl-date: 2022-02-03T12:36:45+00:00; +36d21h14m25s from scanner time.
+| ssl-cert: Subject: commonName=FCS-VSROFF-001.FRESH.Local
+| Not valid before: 2021-11-24T12:56:14
+|_Not valid after:  2022-05-26T12:56:14
+49153/tcp open  msrpc              Microsoft Windows RPC
+49155/tcp open  msrpc              Microsoft Windows RPC
+49156/tcp open  msrpc              Microsoft Windows RPC
+49158/tcp open  ncacn_http         Microsoft Windows RPC over HTTP 1.0
+49159/tcp open  msrpc              Microsoft Windows RPC
+MAC Address: 00:15:5D:01:2F:00 (Microsoft)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (93%), OpenWrt Designated Driver (Linux 4.1) (92%), OpenWrt (Linux 3.18) (90%), Linux 3.10 - 4.11 (87%), Linux 3.2 - 4.9 (87%), Asus RT-AC66U WAP (87%), Dell Integrated Remote Access Controller (iDRAC7) (87%), OpenWrt Attitude Adjustment (Linux 3.3) - Barrier Breaker (Linux 3.8) (87%), OpenWrt Barrier Breaker (Linux 3.10) (87%), Linux 2.6.32 - 3.10 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Host: FCS-VSROFF-001; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: FCS-VSROFF-001, NetBIOS user: <unknown>, NetBIOS MAC: 00:15:5d:01:2f:00 (Microsoft)
+|_clock-skew: mean: 36d21h14m59s, deviation: 1m08s, median: 36d21h14m24s
+| smb2-security-mode:
+|   3.0.2:
+|_    Message signing enabled and required
+| smb-os-discovery:
+|   OS: Windows Server 2012 R2 Standard 9600 (Windows Server 2012 R2 Standard 6.3)
+|   OS CPE: cpe:/o:microsoft:windows_server_2012::-
+|   Computer name: FCS-VSROFF-001
+|   NetBIOS computer name: FCS-VSROFF-001\x00
+|   Domain name: FRESH.Local
+|   Forest name: FRESH.Local
+|   FQDN: FCS-VSROFF-001.FRESH.Local
+|_  System time: 2022-02-03T12:34:37+00:00
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: required
+| smb2-time:
+|   date: 2022-02-03T12:34:37
+|_  start_date: 2021-11-26T12:15:54
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   6.40 ms 192.168.1.201
+
+Nmap scan report for 192.168.1.202
+Host is up (0.0061s latency).
+Not shown: 993 filtered tcp ports (no-response)
+PORT      STATE SERVICE            VERSION
+53/tcp    open  domain             dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+3389/tcp  open  ssl/ms-wbt-server?
+| rdp-ntlm-info:
+|   Target_Name: FRESH
+|   NetBIOS_Domain_Name: FRESH
+|   NetBIOS_Computer_Name: FCS-VSROFF-002
+|   DNS_Domain_Name: FRESH.Local
+|   DNS_Computer_Name: FCS-VSROFF-002.FRESH.Local
+|   DNS_Tree_Name: FRESH.Local
+|   Product_Version: 6.3.9600
+|_  System_Time: 2022-02-03T12:32:41+00:00
+|_ssl-date: 2022-02-03T12:36:50+00:00; +36d21h14m26s from scanner time.
+| ssl-cert: Subject: commonName=FCS-VSROFF-002.FRESH.Local
+| Not valid before: 2021-11-24T23:00:31
+|_Not valid after:  2022-05-26T23:00:31
+49155/tcp open  msrpc              Microsoft Windows RPC
+49167/tcp open  msrpc              Microsoft Windows RPC
+MAC Address: 00:15:5D:01:54:00 (Microsoft)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (93%), OpenWrt Designated Driver (Linux 4.1) (92%), OpenWrt (Linux 3.18) (91%), Linux 3.10 - 4.11 (87%), Linux 3.2 - 4.9 (87%), Asus RT-AC66U WAP (87%), Dell Integrated Remote Access Controller (iDRAC7) (87%), OpenWrt Attitude Adjustment (Linux 3.3) - Barrier Breaker (Linux 3.8) (87%), OpenWrt Barrier Breaker (Linux 3.10) (87%), Linux 2.6.32 - 3.10 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+| smb2-security-mode:
+|   3.0.2:
+|_    Message signing enabled but not required
+|_clock-skew: mean: 36d21h14m25s, deviation: 0s, median: 36d21h14m25s
+|_nbstat: NetBIOS name: FCS-VSROFF-002, NetBIOS user: <unknown>, NetBIOS MAC: 00:15:5d:01:54:00 (Microsoft)
+| smb2-time:
+|   date: 2022-02-03T12:34:38
+|_  start_date: 2022-01-13T16:06:32
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   6.05 ms 192.168.1.202
+
+Nmap scan report for 192.168.1.203
+Host is up (0.0082s latency).
+Not shown: 985 filtered tcp ports (no-response)
+PORT      STATE SERVICE            VERSION
+53/tcp    open  domain             dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+80/tcp    open  http               Microsoft IIS httpd 8.5
+|_http-title: IIS Windows Server
+|_http-server-header: Microsoft-IIS/8.5
+| http-methods:
+|_  Potentially risky methods: TRACE
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+1801/tcp  open  msmq?
+2103/tcp  open  msrpc              Microsoft Windows RPC
+2105/tcp  open  msrpc              Microsoft Windows RPC
+2107/tcp  open  msrpc              Microsoft Windows RPC
+2968/tcp  open  enpp?
+3389/tcp  open  ssl/ms-wbt-server?
+| rdp-ntlm-info:
+|   Target_Name: FRESH
+|   NetBIOS_Domain_Name: FRESH
+|   NetBIOS_Computer_Name: FCS-VSROFF-003
+|   DNS_Domain_Name: FRESH.Local
+|   DNS_Computer_Name: FCS-VSROFF-003.FRESH.Local
+|   DNS_Tree_Name: FRESH.Local
+|   Product_Version: 6.3.9600
+|_  System_Time: 2022-02-03T12:33:56+00:00
+| ssl-cert: Subject: commonName=FCS-VSROFF-003.FRESH.Local
+| Not valid before: 2021-11-26T12:29:25
+|_Not valid after:  2022-05-28T12:29:25
+|_ssl-date: 2022-02-03T12:36:42+00:00; +36d21h14m24s from scanner time.
+6789/tcp  open  ibm-db2-admin?
+8080/tcp  open  http-proxy
+|_http-open-proxy: Proxy might be redirecting requests
+|_http-title: Did not follow redirect to https://192.168.1.203:8443/manage
+| fingerprint-strings:
+|   FourOhFourRequest:
+|     HTTP/1.1 404
+|     Content-Type: text/html;charset=utf-8
+|     Content-Language: en
+|     Content-Length: 431
+|     Date: Thu, 03 Feb 2022 12:26:01 GMT
+|     Connection: close
+|     <!doctype html><html lang="en"><head><title>HTTP Status 404
+|     Found</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 404
+|     Found</h1></body></html>
+|   GetRequest, HTTPOptions:
+|     HTTP/1.1 302
+|     Location: http://localhost:8080/manage
+|     Content-Length: 0
+|     Date: Thu, 03 Feb 2022 12:26:00 GMT
+|     Connection: close
+|   RTSPRequest, Socks5:
+|     HTTP/1.1 400
+|     Content-Type: text/html;charset=utf-8
+|     Content-Language: en
+|     Content-Length: 435
+|     Date: Thu, 03 Feb 2022 12:26:01 GMT
+|     Connection: close
+|     <!doctype html><html lang="en"><head><title>HTTP Status 400
+|     Request</title><style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style></head><body><h1>HTTP Status 400
+|_    Request</h1></body></html>
+8443/tcp  open  ssl/nagios-nsca    Nagios NSCA
+| ssl-cert: Subject: commonName=UniFi/organizationName=ubnt.com/stateOrProvinceName=CA/countryName=US
+| Subject Alternative Name: DNS:UniFi
+| Not valid before: 2019-12-05T23:31:42
+|_Not valid after:  2022-03-09T23:31:42
+| http-title: UniFi Network
+|_Requested resource was /manage/account/login?redirect=%2Fmanage
+49156/tcp open  msrpc              Microsoft Windows RPC
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8080-TCP:V=7.92%I=7%D=12/28%Time=61CB2929%P=aarch64-unknown-linux-g
+SF:nu%r(GetRequest,84,"HTTP/1\.1\x20302\x20\r\nLocation:\x20http://localho
+SF:st:8080/manage\r\nContent-Length:\x200\r\nDate:\x20Thu,\x2003\x20Feb\x2
+SF:02022\x2012:26:00\x20GMT\r\nConnection:\x20close\r\n\r\n")%r(HTTPOption
+SF:s,84,"HTTP/1\.1\x20302\x20\r\nLocation:\x20http://localhost:8080/manage
+SF:\r\nContent-Length:\x200\r\nDate:\x20Thu,\x2003\x20Feb\x202022\x2012:26
+SF::00\x20GMT\r\nConnection:\x20close\r\n\r\n")%r(RTSPRequest,24E,"HTTP/1\
+SF:.1\x20400\x20\r\nContent-Type:\x20text/html;charset=utf-8\r\nContent-La
+SF:nguage:\x20en\r\nContent-Length:\x20435\r\nDate:\x20Thu,\x2003\x20Feb\x
+SF:202022\x2012:26:01\x20GMT\r\nConnection:\x20close\r\n\r\n<!doctype\x20h
+SF:tml><html\x20lang=\"en\"><head><title>HTTP\x20Status\x20400\x20\xe2\x80
+SF:\x93\x20Bad\x20Request</title><style\x20type=\"text/css\">body\x20{font
+SF:-family:Tahoma,Arial,sans-serif;}\x20h1,\x20h2,\x20h3,\x20b\x20{color:w
+SF:hite;background-color:#525D76;}\x20h1\x20{font-size:22px;}\x20h2\x20{fo
+SF:nt-size:16px;}\x20h3\x20{font-size:14px;}\x20p\x20{font-size:12px;}\x20
+SF:a\x20{color:black;}\x20\.line\x20{height:1px;background-color:#525D76;b
+SF:order:none;}</style></head><body><h1>HTTP\x20Status\x20400\x20\xe2\x80\
+SF:x93\x20Bad\x20Request</h1></body></html>")%r(FourOhFourRequest,24A,"HTT
+SF:P/1\.1\x20404\x20\r\nContent-Type:\x20text/html;charset=utf-8\r\nConten
+SF:t-Language:\x20en\r\nContent-Length:\x20431\r\nDate:\x20Thu,\x2003\x20F
+SF:eb\x202022\x2012:26:01\x20GMT\r\nConnection:\x20close\r\n\r\n<!doctype\
+SF:x20html><html\x20lang=\"en\"><head><title>HTTP\x20Status\x20404\x20\xe2
+SF:\x80\x93\x20Not\x20Found</title><style\x20type=\"text/css\">body\x20{fo
+SF:nt-family:Tahoma,Arial,sans-serif;}\x20h1,\x20h2,\x20h3,\x20b\x20{color
+SF::white;background-color:#525D76;}\x20h1\x20{font-size:22px;}\x20h2\x20{
+SF:font-size:16px;}\x20h3\x20{font-size:14px;}\x20p\x20{font-size:12px;}\x
+SF:20a\x20{color:black;}\x20\.line\x20{height:1px;background-color:#525D76
+SF:;border:none;}</style></head><body><h1>HTTP\x20Status\x20404\x20\xe2\x8
+SF:0\x93\x20Not\x20Found</h1></body></html>")%r(Socks5,24E,"HTTP/1\.1\x204
+SF:00\x20\r\nContent-Type:\x20text/html;charset=utf-8\r\nContent-Language:
+SF:\x20en\r\nContent-Length:\x20435\r\nDate:\x20Thu,\x2003\x20Feb\x202022\
+SF:x2012:26:01\x20GMT\r\nConnection:\x20close\r\n\r\n<!doctype\x20html><ht
+SF:ml\x20lang=\"en\"><head><title>HTTP\x20Status\x20400\x20\xe2\x80\x93\x2
+SF:0Bad\x20Request</title><style\x20type=\"text/css\">body\x20{font-family
+SF::Tahoma,Arial,sans-serif;}\x20h1,\x20h2,\x20h3,\x20b\x20{color:white;ba
+SF:ckground-color:#525D76;}\x20h1\x20{font-size:22px;}\x20h2\x20{font-size
+SF::16px;}\x20h3\x20{font-size:14px;}\x20p\x20{font-size:12px;}\x20a\x20{c
+SF:olor:black;}\x20\.line\x20{height:1px;background-color:#525D76;border:n
+SF:one;}</style></head><body><h1>HTTP\x20Status\x20400\x20\xe2\x80\x93\x20
+SF:Bad\x20Request</h1></body></html>");
+MAC Address: 00:15:5D:28:C1:00 (Microsoft)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (93%), OpenWrt Designated Driver (Linux 4.1) (92%), OpenWrt (Linux 3.18) (91%), Linux 3.10 - 4.11 (87%), Linux 3.2 - 4.9 (87%), Asus RT-AC66U WAP (87%), Dell Integrated Remote Access Controller (iDRAC7) (87%), OpenWrt Attitude Adjustment (Linux 3.3) - Barrier Breaker (Linux 3.8) (87%), OpenWrt Barrier Breaker (Linux 3.10) (87%), Linux 2.6.32 - 3.10 (86%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 36d21h14m23s, deviation: 0s, median: 36d21h14m22s
+|_nbstat: NetBIOS name: FCS-VSROFF-003, NetBIOS user: <unknown>, NetBIOS MAC: 00:15:5d:28:c1:00 (Microsoft)
+| smb2-time:
+|   date: 2022-02-03T12:34:36
+|_  start_date: 2021-11-26T12:28:39
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode:
+|   3.0.2:
+|_    Message signing enabled but not required
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   8.24 ms 192.168.1.203
+
+Nmap scan report for 192.168.1.204
+Host is up (0.0055s latency).
+Not shown: 984 closed tcp ports (reset)
+PORT      STATE SERVICE            VERSION
+53/tcp    open  domain             dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+135/tcp   open  msrpc              Microsoft Windows RPC
+139/tcp   open  netbios-ssn        Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds       Microsoft Windows Server 2008 R2 - 2012 microsoft-ds
+1801/tcp  open  msmq?
+2103/tcp  open  msrpc              Microsoft Windows RPC
+2105/tcp  open  msrpc              Microsoft Windows RPC
+2107/tcp  open  msrpc              Microsoft Windows RPC
+2179/tcp  open  vmrdp?
+3389/tcp  open  ssl/ms-wbt-server?
+| ssl-cert: Subject: commonName=FCS-SANSRV-001.FRESH.Local
+| Not valid before: 2021-11-27T13:42:53
+|_Not valid after:  2022-05-29T13:42:53
+|_ssl-date: 2022-02-03T12:36:40+00:00; +36d21h14m25s from scanner time.
+49152/tcp open  msrpc              Microsoft Windows RPC
+49153/tcp open  msrpc              Microsoft Windows RPC
+49154/tcp open  msrpc              Microsoft Windows RPC
+49155/tcp open  msrpc              Microsoft Windows RPC
+49156/tcp open  msrpc              Microsoft Windows RPC
+49157/tcp open  msrpc              Microsoft Windows RPC
+MAC Address: 80:C1:6E:67:F0:50 (Hewlett Packard)
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (91%), Microsoft Windows 7 SP1 or Windows Server 2008 R2 SP1 or Windows 8.1 Update 1 (89%), OpenWrt (Linux 3.18) (89%), Linux 3.2 - 4.9 (88%), OpenWrt Barrier Breaker (Linux 3.10) (88%), Microsoft Windows Server 2008 R2 (88%), Microsoft Windows 7 SP1 (88%), OpenWrt Designated Driver (Linux 4.1) (88%), Microsoft Windows Server 2008 SP2 (88%), Microsoft Windows 7 Professional SP1 (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OSs: Windows, Windows Server 2008 R2 - 2012; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_nbstat: NetBIOS name: FCS-SANSRV-001, NetBIOS user: <unknown>, NetBIOS MAC: 80:c1:6e:67:f0:50 (Hewlett Packard)
+| smb2-time:
+|   date: 2022-02-03T12:34:57
+|_  start_date: 2021-11-26T12:08:18
+|_clock-skew: mean: 36d21h14m24s, deviation: 0s, median: 36d21h14m24s
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode:
+|   3.0.2:
+|_    Message signing enabled but not required
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   5.49 ms 192.168.1.204
+
+Nmap scan report for 192.168.1.205
+Host is up (0.0063s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT     STATE SERVICE            VERSION
+53/tcp   open  domain             dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+3389/tcp open  ssl/ms-wbt-server?
+|_ssl-date: 2022-02-03T12:36:46+00:00; +36d21h14m24s from scanner time.
+| rdp-ntlm-info:
+|   Target_Name: FRESH
+|   NetBIOS_Domain_Name: FRESH
+|   NetBIOS_Computer_Name: FCS-RDSSRV-001
+|   DNS_Domain_Name: FRESH.Local
+|   DNS_Computer_Name: FCS-RDSSRV-001.FRESH.Local
+|   DNS_Tree_Name: FRESH.Local
+|   Product_Version: 6.3.9600
+|_  System_Time: 2022-02-03T12:34:21+00:00
+| ssl-cert: Subject: commonName=FCS-RDSSRV-001.FRESH.Local
+| Not valid before: 2021-10-02T01:34:55
+|_Not valid after:  2022-04-03T01:34:55
+MAC Address: 00:15:5D:28:C3:00 (Microsoft)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: WAP
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3.18 cpe:/o:linux:linux_kernel:4.1
+OS details: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4)
+Network Distance: 1 hop
+
+Host script results:
+|_clock-skew: mean: 36d21h14m23s, deviation: 0s, median: 36d21h14m23s
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   6.33 ms 192.168.1.205
+
+Nmap scan report for 192.168.1.206
+Host is up (0.0072s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 21:f1:a5:82:32:b9:7c:11:56:e1:41:7e:1d:be:5f:ec (RSA)
+|   256 3c:fb:71:c2:b7:d4:b1:26:e3:97:e7:86:b0:5d:d6:9f (ECDSA)
+|_  256 b1:f7:f3:a2:d4:2a:8c:70:16:69:2b:72:c8:62:05:da (ED25519)
+53/tcp   open  domain   dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+8443/tcp open  ssl/http LXD container manager REST API
+|_http-title: Site doesn't have a title (application/json).
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-012/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-012, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T17:01:40
+|_Not valid after:  2032-01-29T17:01:40
+MAC Address: 74:86:7A:CF:42:70 (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   7.16 ms 192.168.1.206
+
+Nmap scan report for 192.168.1.207
+Host is up (0.0068s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 98:35:46:28:c4:0a:d7:54:61:f3:f6:f9:e3:a8:9b:cd (RSA)
+|   256 ca:50:3b:92:90:24:94:66:fe:cc:09:b5:59:e6:e0:d2 (ECDSA)
+|_  256 8e:cc:99:f1:d3:57:d9:b3:f5:f6:01:dc:f4:2d:24:67 (ED25519)
+53/tcp   open  domain   dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+8443/tcp open  ssl/http LXD container manager REST API
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-009/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-009, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T21:51:15
+|_Not valid after:  2032-01-29T21:51:15
+|_http-title: Site doesn't have a title (application/json).
+MAC Address: 54:9F:35:1E:78:38 (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   6.81 ms 192.168.1.207
+
+Nmap scan report for 192.168.1.208
+Host is up (0.0069s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 ac:ce:e7:d9:1f:03:a5:ed:80:2f:2e:1b:ab:e5:05:86 (RSA)
+|   256 f1:80:a2:23:5c:f9:dc:68:2e:ae:d3:0f:f8:68:8f:f1 (ECDSA)
+|_  256 07:f4:0b:23:2d:17:ae:26:9b:eb:1f:6b:66:36:04:7f (ED25519)
+53/tcp   open  domain   dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+8443/tcp open  ssl/http LXD container manager REST API
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-011/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-011, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T21:54:01
+|_Not valid after:  2032-01-29T21:54:01
+|_http-title: Site doesn't have a title (application/json).
+MAC Address: 54:9F:35:21:B1:1E (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   6.91 ms 192.168.1.208
+
+Nmap scan report for 192.168.1.209
+Host is up (0.0057s latency).
+Not shown: 990 closed tcp ports (reset)
+PORT     STATE SERVICE      VERSION
+21/tcp   open  ftp          Pure-FTPd
+22/tcp   open  ssh          OpenSSH 6.3 (protocol 2.0)
+| ssh-hostkey:
+|   1024 11:5b:e4:9a:5a:aa:80:ae:df:69:19:70:8e:f7:89:bf (DSA)
+|_  2048 cb:d4:a1:47:5d:9d:ae:c3:ed:4d:5a:12:8d:00:02:2a (RSA)
+53/tcp   open  domain       dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+80/tcp   open  http         HP Storage Management Utility
+|_http-title: Site doesn't have a title (text/html; charset="utf-8").
+111/tcp  open  rpcbind      2 (RPC #100000)
+| rpcinfo:
+|   program version    port/proto  service
+|   100000  2            111/tcp   rpcbind
+|   100000  2            111/udp   rpcbind
+|_  90123   1            876/tcp
+427/tcp  open  svrloc?
+443/tcp  open  ssl/http     HP Storage Management Utility
+| ssl-cert: Subject: commonName=192.168.1.209/organizationName=HP/stateOrProvinceName=CO/countryName=US
+| Not valid before: 2018-07-16T12:25:20
+|_Not valid after:  2028-07-13T12:25:20
+|_http-title: Site doesn't have a title (text/html; charset="utf-8").
+|_ssl-date: TLS randomness does not represent time
+5989/tcp open  ssl/http     sfcHttpd
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=192.168.1.209/organizationName=HP/stateOrProvinceName=CO/countryName=US
+| Not valid before: 2018-07-16T12:25:20
+|_Not valid after:  2028-07-13T12:25:20
+|_http-title: Site doesn't have a title.
+8000/tcp open  http-alt?
+8001/tcp open  vcom-tunnel?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8001-TCP:V=7.92%I=7%D=12/28%Time=61CB2962%P=aarch64-unknown-linux-g
+SF:nu%r(NULL,8,"n\xcf\xfba\xd0m\t\0")%r(RTSPRequest,8,"n\xcf\xfba\xb3\xf7\
+SF:t\0");
+MAC Address: 00:C0:FF:13:99:DC (Seagate Cloud Systems)
+Aggressive OS guesses: AXIS 210A or 211 Network Camera (Linux 2.6.17) (95%), Linux 3.1 (95%), Linux 3.2 (95%), Android 2.2 (Linux 2.6.32) (94%), OpenWrt Kamikaze 8.09 (Linux 2.6.26) (94%), OpenWrt Kamikaze 8.09 (Linux 2.6.25 - 2.6.26) (94%), OpenWrt Backfire 10.03 (Linux 2.6.32) (93%), Thecus 4200 or N5500 NAS device (Linux 2.6.33) (93%), Thecus N8800PRO NAS device (93%), ASUS RT-N56U WAP (Linux 3.4) (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Device: storage-misc
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   5.68 ms 192.168.1.209
+
+Nmap scan report for 192.168.1.210
+Host is up (0.0053s latency).
+Not shown: 990 closed tcp ports (reset)
+PORT     STATE SERVICE      VERSION
+21/tcp   open  ftp          Pure-FTPd
+22/tcp   open  ssh          OpenSSH 6.3 (protocol 2.0)
+| ssh-hostkey:
+|   1024 07:64:eb:ea:80:81:b4:46:9c:a4:f8:0e:b2:c5:d9:da (DSA)
+|_  2048 1e:08:31:05:cc:98:3b:b8:74:9d:60:1c:d2:af:62:47 (RSA)
+53/tcp   open  domain       dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+80/tcp   open  http         HP Storage Management Utility
+|_http-title: Site doesn't have a title (text/html; charset="utf-8").
+111/tcp  open  rpcbind      2 (RPC #100000)
+| rpcinfo:
+|   program version    port/proto  service
+|   100000  2            111/tcp   rpcbind
+|   100000  2            111/udp   rpcbind
+|_  90123   1            876/tcp
+427/tcp  open  svrloc?
+443/tcp  open  ssl/http     HP Storage Management Utility
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=192.168.1.210/organizationName=HP/stateOrProvinceName=CO/countryName=US
+| Not valid before: 2018-07-16T14:36:42
+|_Not valid after:  2028-07-13T14:36:42
+|_http-title: Site doesn't have a title (text/html; charset="utf-8").
+5989/tcp open  ssl/http     sfcHttpd
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=192.168.1.210/organizationName=HP/stateOrProvinceName=CO/countryName=US
+| Not valid before: 2018-07-16T14:36:42
+|_Not valid after:  2028-07-13T14:36:42
+8000/tcp open  http-alt?
+8001/tcp open  vcom-tunnel?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8001-TCP:V=7.92%I=7%D=12/28%Time=61CB296A%P=aarch64-unknown-linux-g
+SF:nu%r(NULL,8,"w\xcf\xfba&\x91\x06\0");
+MAC Address: 00:C0:FF:15:04:DD (Seagate Cloud Systems)
+Aggressive OS guesses: AXIS 210A or 211 Network Camera (Linux 2.6.17) (95%), Linux 3.1 (95%), Linux 3.2 (95%), Android 2.2 (Linux 2.6.32) (94%), OpenWrt Kamikaze 8.09 (Linux 2.6.26) (94%), Thecus 4200 or N5500 NAS device (Linux 2.6.33) (94%), OpenWrt Kamikaze 8.09 (Linux 2.6.25 - 2.6.26) (94%), OpenWrt Backfire 10.03 (Linux 2.6.32) (93%), Thecus N8800PRO NAS device (93%), ASUS RT-N56U WAP (Linux 3.4) (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Device: storage-misc
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   5.30 ms 192.168.1.210
+
+Nmap scan report for 192.168.1.217
+Host is up (0.0069s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 05:d9:4f:ff:8e:3a:6c:0e:86:ca:b8:76:00:e5:19:00 (RSA)
+|   256 d4:1b:5d:2c:78:f4:15:f4:07:3f:7d:ae:f7:39:7b:65 (ECDSA)
+|_  256 f9:86:90:8d:0c:64:d4:f7:d3:0c:eb:55:63:db:4d:ae (ED25519)
+53/tcp   open  domain   dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+8443/tcp open  ssl/http LXD container manager REST API
+|_http-title: Site doesn't have a title (application/json).
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-003/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-003, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T17:23:23
+|_Not valid after:  2032-01-29T17:23:23
+MAC Address: 54:9F:35:21:7D:FE (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   6.92 ms 192.168.1.217
+
+Nmap scan report for 192.168.1.218
+Host is up (0.0066s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 ac:1d:df:ff:ff:28:9e:d4:ea:92:db:82:58:82:2c:c7 (RSA)
+|   256 53:26:85:9a:13:b6:67:32:bd:43:06:c9:14:a9:f0:7f (ECDSA)
+|_  256 83:4a:83:91:f1:2a:74:ce:3f:80:53:53:87:97:ba:40 (ED25519)
+53/tcp   open  domain   dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+8443/tcp open  ssl/http LXD container manager REST API
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-004/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-004, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T17:29:08
+|_Not valid after:  2032-01-29T17:29:08
+|_http-title: Site doesn't have a title (application/json).
+MAC Address: 54:9F:35:21:B0:4E (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   6.58 ms 192.168.1.218
+
+Nmap scan report for 192.168.1.219
+Host is up (0.0081s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 fc:93:93:95:d4:ca:c1:ae:a6:94:4e:8a:6b:f1:98:96 (RSA)
+|   256 87:8a:4e:2a:a5:dd:e7:1a:b8:c9:2f:92:f1:76:22:81 (ECDSA)
+|_  256 96:7d:e4:e6:52:a1:f8:d3:2f:b8:cb:d6:73:31:89:86 (ED25519)
+53/tcp   open  domain   dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+8443/tcp open  ssl/http LXD container manager REST API
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-005/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-005, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T18:08:31
+|_Not valid after:  2032-01-29T18:08:31
+|_http-title: Site doesn't have a title (application/json).
+MAC Address: 54:9F:35:21:C7:82 (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   8.08 ms 192.168.1.219
+
+Nmap scan report for 192.168.1.220
+Host is up (0.0085s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 05:cd:10:6c:26:04:a9:a1:af:47:21:0f:cb:ad:c6:73 (RSA)
+|   256 d9:08:a0:72:8e:58:15:f6:cb:99:ad:45:d9:62:84:e3 (ECDSA)
+|_  256 e4:db:f3:1e:5f:b1:f7:fd:37:cc:82:0c:65:5a:80:9f (ED25519)
+53/tcp   open  domain   dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+8443/tcp open  ssl/http LXD container manager REST API
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-008/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-008, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T17:05:57
+|_Not valid after:  2032-01-29T17:05:57
+|_http-title: Site doesn't have a title (application/json).
+MAC Address: 74:86:7A:D5:6C:A6 (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   8.49 ms 192.168.1.220
+
+Nmap scan report for 192.168.1.221
+Host is up (0.0059s latency).
+Not shown: 992 closed tcp ports (reset)
+PORT     STATE SERVICE      VERSION
+53/tcp   open  domain       dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+80/tcp   open  tcpwrapped
+|_http-server-header: EPSON_Linux UPnP/1.0 Epson UPnP SDK/1.0
+|_http-title: Site doesn't have a title (text/html).
+139/tcp  open  netbios-ssn?
+443/tcp  open  tcpwrapped
+|_http-title: Site doesn't have a title (text/html).
+| ssl-cert: Subject: commonName=EPSON-WF-C869R/organizationName=SEIKO EPSON CORP.
+| Subject Alternative Name: DNS:EPSON-WF-C869R, DNS:EPSON-WF-C869R.local, IP Address:192.168.0.2, DNS:192.168.0.2
+| Not valid before: 2010-01-01T00:00:00
+|_Not valid after:  2038-01-01T00:00:00
+|_http-server-header: EPSON_Linux UPnP/1.0 Epson UPnP SDK/1.0
+|_ssl-date: TLS randomness does not represent time
+445/tcp  open  microsoft-ds Epson WF-2650 printer smbd
+515/tcp  open  printer
+631/tcp  open  tcpwrapped
+|_http-server-header: Epson_IPP-Server/2.0.0
+|_http-title: Site doesn't have a title (application/ipp).
+9100/tcp open  jetdirect?
+MAC Address: 44:D2:44:ED:2C:46 (Seiko Epson)
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (97%), Linux 3.2 - 4.9 (94%), Dell Integrated Remote Access Controller (iDRAC7) (94%), Linux 2.6.32 - 3.10 (94%), Philips Hue Bridge 2.0 (Linux 3.14) (94%), OpenWrt Designated Driver (Linux 4.1) (93%), Arris TG562G/CT cable modem (93%), Arris TG862G/CT cable modem (93%), OpenWrt Barrier Breaker (Linux 3.10) (93%), Linux 4.4 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Device: printer; CPE: cpe:/h:epson:wf-2650
+
+Host script results:
+|_clock-skew: mean: 36d22h43m44s, deviation: 0s, median: 36d22h43m44s
+|_nbstat: NetBIOS name: EPSON-WF-C869R, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-security-mode: ERROR: Script execution failed (use -d to debug)
+|_ms-sql-info: ERROR: Script execution failed (use -d to debug)
+| smb2-time:
+|   date: 2022-02-03T14:04:00
+|_  start_date: 2022-02-02T11:38:40
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   5.88 ms 192.168.1.221
+
+Nmap scan report for 192.168.1.222
+Host is up (0.0043s latency).
+Not shown: 990 closed tcp ports (reset)
+PORT     STATE SERVICE      VERSION
+53/tcp   open  domain       dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+80/tcp   open  http         HP Officejet Pro X451dw Printer printer http config (Serial CN55FKK0JP)
+|_http-server-header: HP HTTP Server; HP HP Officejet Pro X451dw Printer - CN463A; Serial Number: CN55FKK0JP; Built:Thu May 28, 2020 04:54:22AM {BWP1CN2022AR}
+| http-robots.txt: 1 disallowed entry
+|_/
+| http-methods:
+|_  Potentially risky methods: PUT DELETE
+|_http-title: Site doesn't have a title (text/html).
+139/tcp  open  tcpwrapped
+443/tcp  open  ssl/http     HP Officejet Pro X451dw Printer printer http config (Serial CN55FKK0JP)
+| http-methods:
+|_  Potentially risky methods: PUT DELETE
+|_ssl-date: TLS randomness does not represent time
+| ssl-cert: Subject: commonName=HPF84815/organizationName=HP/stateOrProvinceName=Washington/countryName=US
+| Not valid before: 2015-01-09T13:05:49
+|_Not valid after:  2035-01-04T13:05:49
+|_http-title: Site doesn't have a title (text/html).
+445/tcp  open  microsoft-ds HP Officejet Pro 8600 printer smbd
+515/tcp  open  printer
+631/tcp  open  http         HP Officejet Pro X451dw Printer printer http config (Serial CN55FKK0JP)
+| http-methods:
+|_  Potentially risky methods: PUT DELETE
+|_http-server-header: HP HTTP Server; HP HP Officejet Pro X451dw Printer - CN463A; Serial Number: CN55FKK0JP; Built:Thu May 28, 2020 04:54:22AM {BWP1CN2022AR}
+|_http-title: Site doesn't have a title.
+8080/tcp open  http         HP Officejet Pro X451dw Printer printer http config (Serial CN55FKK0JP)
+| http-methods:
+|_  Potentially risky methods: PUT DELETE
+| http-robots.txt: 1 disallowed entry
+|_/
+|_http-title: Site doesn't have a title (text/html).
+|_http-server-header: HP HTTP Server; HP HP Officejet Pro X451dw Printer - CN463A; Serial Number: CN55FKK0JP; Built:Thu May 28, 2020 04:54:22AM {BWP1CN2022AR}
+9100/tcp open  jetdirect?
+9220/tcp open  hp-gsg       HP Generic Scan Gateway 1.0
+MAC Address: EC:B1:D7:F8:48:15 (Hewlett Packard)
+Device type: WAP|storage-misc|general purpose|specialized|remote management
+Running (JUST GUESSING): Linux 3.X|4.X (91%), Apple embedded (90%), IBM i 7.X (90%), Apple NetBSD (90%), Crestron 2-Series (88%), Dell embedded (88%)
+OS CPE: cpe:/o:linux:linux_kernel:3.18 cpe:/o:linux:linux_kernel:4.1 cpe:/o:ibm:i:7.1 cpe:/o:apple:netbsd cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4 cpe:/o:crestron:2_series cpe:/h:dell:remote_access_card:7
+Aggressive OS guesses: OpenWrt Chaos Calmer 15.05 (Linux 3.18) or Designated Driver (Linux 4.1 or 4.4) (91%), Apple Time Capsule NAS device (90%), IBM i 7.1 (90%), Apple AirPort Extreme WAP (version 7.7.3) (90%), OpenWrt Designated Driver (Linux 4.1) (89%), Linux 3.2 - 4.9 (88%), Crestron XPanel control system (88%), Dell Integrated Remote Access Controller (iDRAC7) (88%), OpenWrt Barrier Breaker (Linux 3.10) (88%), APC Smart-UPS (AOS 5) (88%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: Device: printer; CPE: cpe:/h:hp:officejet_pro_x451dw_printer, cpe:/h:hp:officejet_pro_8600
+
+Host script results:
+|_nbstat: NetBIOS name: HPECB1D7F84815, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.31 ms 192.168.1.222
+
+Nmap scan report for 192.168.1.223
+Host is up (0.0058s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 5a:6d:76:6f:f0:16:f7:ce:98:da:7a:51:13:47:27:09 (RSA)
+|   256 50:55:57:fe:e2:1d:60:69:f5:f7:4c:e0:ad:bb:92:4a (ECDSA)
+|_  256 2d:4c:5d:7e:36:a9:0a:da:4e:61:3b:9e:a6:f3:31:b5 (ED25519)
+53/tcp   open  domain   dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+8443/tcp open  ssl/http LXD container manager REST API
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-014/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-014, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T17:06:05
+|_Not valid after:  2032-01-29T17:06:05
+|_http-title: Site doesn't have a title (application/json).
+MAC Address: 74:86:7A:F1:D7:7E (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   5.84 ms 192.168.1.223
+
+Nmap scan report for 192.168.1.224
+Host is up (0.0036s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 88:0c:c6:26:0a:84:e8:61:62:a7:bc:9c:b1:b6:29:ca (RSA)
+|   256 2f:01:60:1a:ea:58:ae:b9:d4:cb:a3:dd:58:7a:2e:7e (ECDSA)
+|_  256 83:01:a6:0f:71:01:05:88:f4:0d:bd:01:b6:74:01:58 (ED25519)
+53/tcp   open  domain   dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+8443/tcp open  ssl/http LXD container manager REST API
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-016/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-016, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T17:05:11
+|_Not valid after:  2032-01-29T17:05:11
+|_http-title: Site doesn't have a title (application/json).
+MAC Address: 74:86:7A:F1:E1:EE (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   3.59 ms 192.168.1.224
+
+Nmap scan report for 192.168.1.225
+Host is up (0.0032s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE  VERSION
+22/tcp   open  ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 41:3a:49:ed:88:48:4f:36:2a:0d:30:56:1a:4a:e0:f0 (RSA)
+|   256 0d:0c:6f:0f:0f:7f:12:87:31:a8:2d:89:c6:94:36:9a (ECDSA)
+|_  256 52:05:37:f8:0c:e9:b0:f2:21:f8:c0:3d:e0:01:bf:ed (ED25519)
+53/tcp   open  domain   dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+8443/tcp open  ssl/http LXD container manager REST API
+|_http-title: Site doesn't have a title (application/json).
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-010/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-010, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T17:59:15
+|_Not valid after:  2032-01-29T17:59:15
+MAC Address: 74:86:7A:EF:AA:52 (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   3.19 ms 192.168.1.225
+
+Nmap scan report for 192.168.1.226
+Host is up (0.0034s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE  VERSION
+22/tcp   open     ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 fe:b6:8a:85:fc:e9:08:15:4f:62:5f:19:94:e8:6d:f1 (RSA)
+|   256 c3:75:08:23:80:c8:db:a4:44:a6:0b:71:4e:b0:96:81 (ECDSA)
+|_  256 59:45:de:7d:e5:27:8f:71:f5:c3:e4:1f:8f:fe:d4:f0 (ED25519)
+53/tcp   filtered domain
+8443/tcp open     ssl/http LXD container manager REST API
+|_http-title: Site doesn't have a title (application/json).
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-015/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-015, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T17:05:07
+|_Not valid after:  2032-01-29T17:05:07
+MAC Address: 54:9F:35:21:7D:EE (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   3.36 ms 192.168.1.226
+
+Nmap scan report for 192.168.1.227
+Host is up (0.0039s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE  VERSION
+22/tcp   open     ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 4b:2c:30:7f:9d:57:47:ae:93:f1:2f:e0:56:dc:f3:29 (RSA)
+|   256 3e:24:da:53:bc:e4:bf:15:e2:86:01:d6:b4:ac:e5:47 (ECDSA)
+|_  256 bd:b6:12:5c:48:b4:ae:8d:e9:3a:58:8b:79:21:64:7a (ED25519)
+53/tcp   filtered domain
+8443/tcp open     ssl/http LXD container manager REST API
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-013/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-013, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T17:29:10
+|_Not valid after:  2032-01-29T17:29:10
+|_http-title: Site doesn't have a title (application/json).
+MAC Address: 54:9F:35:1E:72:B8 (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   3.86 ms 192.168.1.227
+
+Nmap scan report for 192.168.1.228
+Host is up (0.0042s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE  VERSION
+22/tcp   open     ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 54:50:36:a4:c0:68:cf:45:36:7c:39:58:5d:b5:d5:e2 (RSA)
+|   256 6a:69:f5:2d:a3:b9:6d:20:eb:b8:5c:49:2b:02:b5:46 (ECDSA)
+|_  256 f6:86:22:06:a8:ff:f3:60:d3:96:b5:66:f3:bb:e0:cd (ED25519)
+53/tcp   filtered domain
+8443/tcp open     ssl/http LXD container manager REST API
+|_http-title: Site doesn't have a title (application/json).
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-006/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-006, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T17:05:04
+|_Not valid after:  2032-01-29T17:05:04
+MAC Address: 54:9F:35:1E:6B:38 (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.21 ms 192.168.1.228
+
+Nmap scan report for 192.168.1.229
+Host is up (0.0040s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE    SERVICE  VERSION
+22/tcp   open     ssh      OpenSSH 8.2p1 Ubuntu 4ubuntu0.4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey:
+|   3072 8e:f3:9d:eb:ff:5a:11:fe:8f:e8:10:46:08:3b:a8:28 (RSA)
+|   256 83:95:6a:af:06:18:07:4b:c0:85:db:0e:d1:b9:18:d4 (ECDSA)
+|_  256 5b:bb:10:e2:ae:b2:7f:37:46:81:88:f3:e0:42:34:57 (ED25519)
+53/tcp   filtered domain
+8443/tcp open     ssl/http LXD container manager REST API
+| ssl-cert: Subject: commonName=root@CIT-OPNSTK-007/organizationName=linuxcontainers.org
+| Subject Alternative Name: DNS:CIT-OPNSTK-007, IP Address:127.0.0.1, IP Address:0:0:0:0:0:0:0:1
+| Not valid before: 2022-01-31T17:27:30
+|_Not valid after:  2032-01-29T17:27:30
+|_http-title: Site doesn't have a title (application/json).
+MAC Address: 54:9F:35:1E:80:38 (Dell)
+Device type: general purpose
+Running: Linux 4.X|5.X
+OS CPE: cpe:/o:linux:linux_kernel:4 cpe:/o:linux:linux_kernel:5
+OS details: Linux 4.15 - 5.6
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.00 ms 192.168.1.229
+
+Nmap scan report for 192.168.1.230
+Host is up (0.0046s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT      STATE    SERVICE     VERSION
+22/tcp    open     ssh         OpenSSH 6.7p1 Raspbian 5+deb8u3 (protocol 2.0)
+| ssh-hostkey:
+|   1024 b4:d1:44:b4:46:8b:88:8a:01:70:92:4a:fd:d6:90:6b (DSA)
+|   2048 3f:41:fb:f9:32:c9:3c:1c:53:61:9b:4e:c7:35:b4:93 (RSA)
+|   256 4f:55:83:18:7a:4a:e9:22:dc:4b:2c:47:18:5f:61:c5 (ECDSA)
+|_  256 12:6a:92:5f:b5:d6:0e:a1:f3:60:08:c2:00:03:d7:83 (ED25519)
+53/tcp    filtered domain
+80/tcp    open     http        Apache httpd 2.4.10 ((Raspbian))
+|_http-server-header: Apache/2.4.10 (Raspbian)
+|_http-title: Pi Displays Controls
+139/tcp   open     netbios-ssn Samba smbd 3.X - 4.X (workgroup: WORKGROUP)
+445/tcp   open     netbios-ssn Samba smbd 4.2.14-Debian (workgroup: WORKGROUP)
+10000/tcp open     http        MiniServ 1.850 (Webmin httpd)
+|_http-trane-info: Problem with XML parsing of /evox/about
+|_http-title: Site doesn't have a title (text/html; Charset=iso-8859-1).
+|_http-server-header: MiniServ/1.850
+MAC Address: B8:27:EB:EC:5A:E7 (Raspberry Pi Foundation)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: Host: MASTERPI; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Host script results:
+| smb-security-mode:
+|   account_used: guest
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb-os-discovery:
+|   OS: Windows 6.1 (Samba 4.2.14-Debian)
+|   Computer name: masterpi
+|   NetBIOS computer name: MASTERPI\x00
+|   Domain name: \x00
+|   FQDN: masterpi
+|_  System time: 2022-02-03T12:40:43+00:00
+|_clock-skew: mean: 36d21h14m25s, deviation: 1s, median: 36d21h14m24s
+| smb2-time:
+|   date: 2022-02-03T12:40:43
+|_  start_date: N/A
+| smb2-security-mode:
+|   3.0:
+|_    Message signing enabled but not required
+|_nbstat: NetBIOS name: MASTERPI, NetBIOS user: <unknown>, NetBIOS MAC: <unknown> (unknown)
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.64 ms 192.168.1.230
+
+Nmap scan report for 192.168.1.231
+Host is up (0.0048s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE    SERVICE VERSION
+22/tcp open     ssh     OpenSSH 6.7p1 Raspbian 5+deb8u3 (protocol 2.0)
+| ssh-hostkey:
+|   1024 05:9e:49:44:8f:c8:16:6e:21:3d:2a:49:3a:bc:88:9c (DSA)
+|   2048 76:37:51:56:3d:cc:2e:85:a1:21:c7:a7:c9:1d:3d:c0 (RSA)
+|   256 75:27:23:a8:20:92:e7:8c:c1:64:78:50:e5:cf:d2:13 (ECDSA)
+|_  256 7f:cc:a8:39:8c:99:ea:25:5d:76:5d:b6:14:35:f9:b2 (ED25519)
+53/tcp filtered domain
+MAC Address: B8:27:EB:DD:CF:12 (Raspberry Pi Foundation)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.79 ms 192.168.1.231
+
+Nmap scan report for 192.168.1.232
+Host is up (0.0046s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE    SERVICE VERSION
+22/tcp open     ssh     OpenSSH 6.7p1 Raspbian 5+deb8u3 (protocol 2.0)
+| ssh-hostkey:
+|   1024 05:9e:49:44:8f:c8:16:6e:21:3d:2a:49:3a:bc:88:9c (DSA)
+|   2048 76:37:51:56:3d:cc:2e:85:a1:21:c7:a7:c9:1d:3d:c0 (RSA)
+|   256 75:27:23:a8:20:92:e7:8c:c1:64:78:50:e5:cf:d2:13 (ECDSA)
+|_  256 7f:cc:a8:39:8c:99:ea:25:5d:76:5d:b6:14:35:f9:b2 (ED25519)
+53/tcp filtered domain
+MAC Address: B8:27:EB:4D:DB:7A (Raspberry Pi Foundation)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.64 ms 192.168.1.232
+
+Nmap scan report for 192.168.1.233
+Host is up (0.0046s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE    SERVICE VERSION
+22/tcp open     ssh     OpenSSH 6.7p1 Raspbian 5+deb8u3 (protocol 2.0)
+| ssh-hostkey:
+|   1024 ef:a5:26:60:ed:52:d4:07:b1:01:de:01:b9:bd:99:de (DSA)
+|   2048 30:50:0c:69:5a:e4:ec:11:47:b5:37:95:be:ea:db:d2 (RSA)
+|   256 20:d9:74:55:7f:b9:f5:f2:06:7b:a9:61:1d:f9:f5:66 (ECDSA)
+|_  256 ff:69:f0:9e:bb:53:f9:cf:14:42:ac:ce:af:71:c8:95 (ED25519)
+53/tcp filtered domain
+MAC Address: B8:27:EB:97:C9:90 (Raspberry Pi Foundation)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.55 ms 192.168.1.233
+
+Nmap scan report for 192.168.1.234
+Host is up (0.0045s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE    SERVICE VERSION
+22/tcp open     ssh     OpenSSH 6.7p1 Raspbian 5+deb8u3 (protocol 2.0)
+| ssh-hostkey:
+|   1024 19:03:f8:b2:27:cf:93:62:03:35:3a:77:a5:ee:71:bb (DSA)
+|   2048 a3:12:34:5c:e9:8a:5e:67:0b:3a:e4:3b:01:3a:41:cd (RSA)
+|   256 41:36:fb:31:e1:62:bb:62:f4:93:64:9a:02:38:b7:7f (ECDSA)
+|_  256 a5:ae:c8:88:99:2c:8b:1f:84:da:7d:13:53:5d:74:8d (ED25519)
+53/tcp filtered domain
+MAC Address: B8:27:EB:9F:39:19 (Raspberry Pi Foundation)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.49 ms 192.168.1.234
+
+Nmap scan report for 192.168.1.235
+Host is up (0.0048s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 6.7p1 Raspbian 5+deb8u3 (protocol 2.0)
+| ssh-hostkey:
+|   1024 37:22:d1:83:ec:48:86:92:2a:da:77:c8:cf:83:30:af (DSA)
+|   2048 55:b9:bf:7f:cf:46:51:02:09:47:ae:da:99:81:3e:9a (RSA)
+|   256 15:17:b6:42:62:0b:4a:9b:62:a1:a3:b3:f3:10:7e:57 (ECDSA)
+|_  256 7e:a3:ec:75:69:54:33:ee:bf:c9:8e:7b:4c:c9:a8:8a (ED25519)
+53/tcp open  domain  dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+MAC Address: B8:27:EB:D4:FD:7C (Raspberry Pi Foundation)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.76 ms 192.168.1.235
+
+Nmap scan report for 192.168.1.236
+Host is up (0.0046s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 6.7p1 Raspbian 5+deb8u3 (protocol 2.0)
+| ssh-hostkey:
+|   1024 77:f4:c6:07:78:50:cd:0d:af:98:19:43:4d:f6:f3:e7 (DSA)
+|   2048 3c:3f:8e:06:a1:24:1b:84:ab:15:b2:58:ec:32:0c:60 (RSA)
+|   256 f7:6a:a2:e5:65:1e:5f:47:b2:9b:8c:e1:0a:2a:07:af (ECDSA)
+|_  256 f3:16:8a:07:ef:9d:00:c6:b4:42:ea:49:ad:31:b5:2e (ED25519)
+53/tcp open  domain  dnsmasq 2.84
+| dns-nsid:
+|_  bind.version: dnsmasq-2.84
+MAC Address: B8:27:EB:93:F1:35 (Raspberry Pi Foundation)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.57 ms 192.168.1.236
+
+Nmap scan report for 192.168.1.237
+Host is up (0.0045s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE    SERVICE VERSION
+22/tcp open     ssh     OpenSSH 6.7p1 Raspbian 5+deb8u3 (protocol 2.0)
+| ssh-hostkey:
+|   1024 77:f4:c6:07:78:50:cd:0d:af:98:19:43:4d:f6:f3:e7 (DSA)
+|   2048 3c:3f:8e:06:a1:24:1b:84:ab:15:b2:58:ec:32:0c:60 (RSA)
+|   256 f7:6a:a2:e5:65:1e:5f:47:b2:9b:8c:e1:0a:2a:07:af (ECDSA)
+|_  256 f3:16:8a:07:ef:9d:00:c6:b4:42:ea:49:ad:31:b5:2e (ED25519)
+53/tcp filtered domain
+MAC Address: B8:27:EB:03:26:C0 (Raspberry Pi Foundation)
+Device type: general purpose
+Running: Linux 3.X|4.X
+OS CPE: cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:4
+OS details: Linux 3.2 - 4.9
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   4.55 ms 192.168.1.237
+
+Nmap scan report for 192.168.1.254
+Host is up (0.0051s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT     STATE SERVICE   VERSION
+80/tcp   open  http
+| fingerprint-strings:
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, GenericLines, HTTPOptions, Help, RPCCheck, RTSPRequest, SSLSessionReq, TerminalServerCookie, X11Probe:
+|     HTTP/1.1 405
+|     Content-Length: 0
+|   FourOhFourRequest:
+|     HTTP/1.1 404
+|     Content-Length: 0
+|   GetRequest:
+|     HTTP/1.1 200 OK
+|     Set-Cookie: SessionID_R3=/5YwzyBxYdSJXkpsnjW7dCs+yVypG8apwCrRIVLQXaVzxs3Qxa2ekzxDJGV1Z5Hg2OwDH28wQHnNLRsvvmteoKGSOYCnk6igJEhGgdU0Kb4QjIBxHwmU1V14l0NsvFS; path=/; HttpOnly;
+|     Cache-Control: no-cache
+|     Date: Thu, 03 Feb 2022 12:38:08 GMT
+|     Connection: Keep-Alive
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 7105
+|     <!DOCTYPE html>
+|     <!--[if lt IE 7 ]><html lang="en" class="ie6"><![endif]-->
+|     <!--[if IE 7 ]><html lang="en" class="ie7"><![endif]-->
+|     <!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+|     <!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+|     <!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+|     <head>
+|     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+|     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+|     <meta name="description" content="">
+|     <meta name="author" content="">
+|_    <meta name="csrf_param" co
+|_http-title:  Super Router
+443/tcp  open  ssl/https
+|_ssl-date: 2022-02-03T12:41:15+00:00; +36d21h14m28s from scanner time.
+| ssl-cert: Subject: commonName=zxserver/organizationName=hw/stateOrProvinceName=gd/countryName=cn
+| Not valid before: 2007-05-25T01:55:25
+|_Not valid after:  2017-05-22T01:55:25
+| fingerprint-strings:
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, GenericLines, HTTPOptions, Help, RPCCheck, RTSPRequest, SSLSessionReq, TerminalServerCookie, tor-versions:
+|     HTTP/1.1 405
+|     Content-Length: 0
+|   FourOhFourRequest:
+|     HTTP/1.1 404
+|     Content-Length: 0
+|   GetRequest:
+|     HTTP/1.1 200 OK
+|     Set-Cookie: SessionID_R3=PpnYOGWKqiw5BJAA9gxSEN37QoLWFl1qSNdo0F8lZ9WhuuPA3M9xuFSo1qPy6VUgEXG/zQuRZzsudK3NI+Hc93HjGJUaOQdsZGWa8QllTaoBV+TqG9CRFY4BZHFtK1h; path=/; secure=true; HttpOnly;
+|     Cache-Control: no-cache
+|     Date: Thu, 03 Feb 2022 12:38:14 GMT
+|     Connection: Keep-Alive
+|     Content-Type: text/html; charset=utf-8
+|     Content-Length: 7105
+|     <!DOCTYPE html>
+|     <!--[if lt IE 7 ]><html lang="en" class="ie6"><![endif]-->
+|     <!--[if IE 7 ]><html lang="en" class="ie7"><![endif]-->
+|     <!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+|     <!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+|     <!--[if (gt IE 9)|!(IE)]><!--><html lang="en"><!--<![endif]-->
+|     <head>
+|     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+|     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+|     <meta name="description" content="">
+|     <meta name="author" content="">
+|_    <meta name="c
+|_http-title:  Super Router
+5060/tcp open  sip?
+3 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.92%I=7%D=12/28%Time=61CB2BFC%P=aarch64-unknown-linux-gnu
+SF:%r(GetRequest,1D15,"HTTP/1\.1\x20200\x20OK\r\nSet-Cookie:\x20SessionID_
+SF:R3=/5YwzyBxYdSJXkpsnjW7dCs\+yVypG8apwCrRIVLQXaVzxs3Qxa2ekzxDJGV1Z5Hg2Ow
+SF:DH28wQHnNLRsvvmteoKGSOYCnk6igJEhGgdU0Kb4QjIBxHwmU1V14l0NsvFS;\x20path=/
+SF:;\x20HttpOnly;\r\nCache-Control:\x20no-cache\r\nDate:\x20Thu,\x2003\x20
+SF:Feb\x202022\x2012:38:08\x20GMT\r\nConnection:\x20Keep-Alive\r\nContent-
+SF:Type:\x20text/html;\x20charset=utf-8\r\nContent-Length:\x207105\r\n\r\n
+SF:<!DOCTYPE\x20html>\r\n<!--\[if\x20lt\x20IE\x207\x20\]><html\x20lang=\"e
+SF:n\"\x20class=\"ie6\"><!\[endif\]-->\r\n<!--\[if\x20IE\x207\x20\]><html\
+SF:x20lang=\"en\"\x20class=\"ie7\"><!\[endif\]-->\r\n<!--\[if\x20IE\x208\x
+SF:20\]><html\x20lang=\"en\"\x20class=\"ie8\"><!\[endif\]-->\r\n<!--\[if\x
+SF:20IE\x209\x20\]><html\x20lang=\"en\"\x20class=\"ie9\"><!\[endif\]-->\r\
+SF:n<!--\[if\x20\(gt\x20IE\x209\)\|!\(IE\)\]><!--><html\x20lang=\"en\"><!-
+SF:-<!\[endif\]-->\r\n<head>\r\n<meta\x20http-equiv=\"Content-Type\"\x20co
+SF:ntent=\"text/html;\x20charset=utf-8\"\x20/>\r\n<meta\x20name=\"viewport
+SF:\"\x20content=\"width=device-width,\x20initial-scale=1\.0\">\r\n<meta\x
+SF:20name=\"description\"\x20content=\"\">\r\n<meta\x20name=\"author\"\x20
+SF:content=\"\">\r\n<meta\x20name=\"csrf_param\"\x20co")%r(HTTPOptions,24,
+SF:"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\r\n")%r(RTSPRequest,2
+SF:4,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\r\n")%r(X11Probe,24
+SF:,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\r\n")%r(FourOhFourRe
+SF:quest,24,"HTTP/1\.1\x20404\x20\r\nContent-Length:\x200\r\n\r\n")%r(Gene
+SF:ricLines,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\r\n")%r(R
+SF:PCCheck,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\r\n")%r(DN
+SF:SVersionBindReqTCP,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n
+SF:\r\n")%r(DNSStatusRequestTCP,24,"HTTP/1\.1\x20405\x20\r\nContent-Length
+SF::\x200\r\n\r\n")%r(Help,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x20
+SF:0\r\n\r\n")%r(SSLSessionReq,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:
+SF:\x200\r\n\r\n")%r(TerminalServerCookie,24,"HTTP/1\.1\x20405\x20\r\nCont
+SF:ent-Length:\x200\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=12/28%Time=61CB2C03%P=aarch64-unknown-li
+SF:nux-gnu%r(GetRequest,1D22,"HTTP/1\.1\x20200\x20OK\r\nSet-Cookie:\x20Ses
+SF:sionID_R3=PpnYOGWKqiw5BJAA9gxSEN37QoLWFl1qSNdo0F8lZ9WhuuPA3M9xuFSo1qPy6
+SF:VUgEXG/zQuRZzsudK3NI\+Hc93HjGJUaOQdsZGWa8QllTaoBV\+TqG9CRFY4BZHFtK1h;\x
+SF:20path=/;\x20secure=true;\x20HttpOnly;\r\nCache-Control:\x20no-cache\r\
+SF:nDate:\x20Thu,\x2003\x20Feb\x202022\x2012:38:14\x20GMT\r\nConnection:\x
+SF:20Keep-Alive\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\nContent
+SF:-Length:\x207105\r\n\r\n<!DOCTYPE\x20html>\r\n<!--\[if\x20lt\x20IE\x207
+SF:\x20\]><html\x20lang=\"en\"\x20class=\"ie6\"><!\[endif\]-->\r\n<!--\[if
+SF:\x20IE\x207\x20\]><html\x20lang=\"en\"\x20class=\"ie7\"><!\[endif\]-->\
+SF:r\n<!--\[if\x20IE\x208\x20\]><html\x20lang=\"en\"\x20class=\"ie8\"><!\[
+SF:endif\]-->\r\n<!--\[if\x20IE\x209\x20\]><html\x20lang=\"en\"\x20class=\
+SF:"ie9\"><!\[endif\]-->\r\n<!--\[if\x20\(gt\x20IE\x209\)\|!\(IE\)\]><!-->
+SF:<html\x20lang=\"en\"><!--<!\[endif\]-->\r\n<head>\r\n<meta\x20http-equi
+SF:v=\"Content-Type\"\x20content=\"text/html;\x20charset=utf-8\"\x20/>\r\n
+SF:<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20initial-
+SF:scale=1\.0\">\r\n<meta\x20name=\"description\"\x20content=\"\">\r\n<met
+SF:a\x20name=\"author\"\x20content=\"\">\r\n<meta\x20name=\"c")%r(HTTPOpti
+SF:ons,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\r\n")%r(FourOh
+SF:FourRequest,24,"HTTP/1\.1\x20404\x20\r\nContent-Length:\x200\r\n\r\n")%
+SF:r(tor-versions,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\r\n
+SF:")%r(GenericLines,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n\
+SF:r\n")%r(RTSPRequest,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\
+SF:n\r\n")%r(RPCCheck,24,"HTTP/1\.1\x20405\x20\r\nContent-Length:\x200\r\n
+SF:\r\n")%r(DNSVersionBindReqTCP,24,"HTTP/1\.1\x20405\x20\r\nContent-Lengt
+SF:h:\x200\r\n\r\n")%r(DNSStatusRequestTCP,24,"HTTP/1\.1\x20405\x20\r\nCon
+SF:tent-Length:\x200\r\n\r\n")%r(Help,24,"HTTP/1\.1\x20405\x20\r\nContent-
+SF:Length:\x200\r\n\r\n")%r(SSLSessionReq,24,"HTTP/1\.1\x20405\x20\r\nCont
+SF:ent-Length:\x200\r\n\r\n")%r(TerminalServerCookie,24,"HTTP/1\.1\x20405\
+SF:x20\r\nContent-Length:\x200\r\n\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port5060-TCP:V=7.92%I=7%D=12/28%Time=61CB2BFC%P=aarch64-unknown-linux-g
+SF:nu%r(NULL,2,"\r\n")%r(GetRequest,4,"\r\n\r\n")%r(SIPOptions,4,"\r\n\r\n
+SF:")%r(GenericLines,2,"\r\n")%r(HTTPOptions,2,"\r\n")%r(RTSPRequest,2,"\r
+SF:\n")%r(RPCCheck,2,"\r\n")%r(DNSVersionBindReqTCP,2,"\r\n")%r(DNSStatusR
+SF:equestTCP,2,"\r\n")%r(Help,2,"\r\n")%r(SSLSessionReq,2,"\r\n")%r(Termin
+SF:alServerCookie,2,"\r\n")%r(TLSSessionReq,2,"\r\n")%r(Kerberos,2,"\r\n")
+SF:%r(SMBProgNeg,2,"\r\n")%r(X11Probe,2,"\r\n")%r(FourOhFourRequest,2,"\r\
+SF:n")%r(LPDString,2,"\r\n")%r(LDAPSearchReq,2,"\r\n")%r(LDAPBindReq,2,"\r
+SF:\n")%r(LANDesk-RC,2,"\r\n")%r(TerminalServer,2,"\r\n")%r(NCP,2,"\r\n")%
+SF:r(NotesRPC,2,"\r\n")%r(JavaRMI,2,"\r\n")%r(WMSRequest,2,"\r\n")%r(oracl
+SF:e-tns,2,"\r\n")%r(ms-sql-s,2,"\r\n")%r(afp,2,"\r\n")%r(giop,2,"\r\n");
+MAC Address: 24:09:95:75:0B:76 (Huawei Technologies)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|terminal server
+Running: Linux 2.6.X, Lantronix embedded
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:lantronix:slc_8
+OS details: Linux 2.6.9 - 2.6.18, Linux 2.6.9 - 2.6.27, Lantronix SLC 8 terminal server (Linux 2.6)
+Network Distance: 1 hop
+
+Host script results:
+|_clock-skew: 36d21h14m27s
+
+TRACEROUTE
+HOP RTT     ADDRESS
+1   5.13 ms 192.168.1.254
+
+Nmap scan report for 192.168.1.63
+Host is up (0.000082s latency).
+All 1000 scanned ports on 192.168.1.63 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+Post-scan script results:
+| clock-skew:
+|   36d21h14m23s:
+|     192.168.1.162
+|     192.168.1.203
+|     192.168.1.161
+|   36d21h14m24s:
+|     192.168.1.164
+|     192.168.1.205
+|     192.168.1.163
+|   36d21h14m35s:
+|     192.168.1.97
+|     192.168.1.121
+|     192.168.1.123
+|     192.168.1.204
+|     192.168.1.201
+|     192.168.1.159
+|     192.168.1.230
+|   36d21h15m17s:
+|     192.168.1.142
+|     192.168.1.202
+|_    192.168.1.160
+| ssh-hostkey: Possible duplicate hosts
+| Key 256 75:27:23:a8:20:92:e7:8c:c1:64:78:50:e5:cf:d2:13 (ECDSA) used by:
+|   192.168.1.231
+|   192.168.1.232
+| Key 256 7f:cc:a8:39:8c:99:ea:25:5d:76:5d:b6:14:35:f9:b2 (ED25519) used by:
+|   192.168.1.231
+|   192.168.1.232
+| Key 256 f3:16:8a:07:ef:9d:00:c6:b4:42:ea:49:ad:31:b5:2e (ED25519) used by:
+|   192.168.1.236
+|   192.168.1.237
+| Key 1024 77:f4:c6:07:78:50:cd:0d:af:98:19:43:4d:f6:f3:e7 (DSA) used by:
+|   192.168.1.236
+|   192.168.1.237
+| Key 2048 76:37:51:56:3d:cc:2e:85:a1:21:c7:a7:c9:1d:3d:c0 (RSA) used by:
+|   192.168.1.231
+|   192.168.1.232
+| Key 256 f7:6a:a2:e5:65:1e:5f:47:b2:9b:8c:e1:0a:2a:07:af (ECDSA) used by:
+|   192.168.1.236
+|   192.168.1.237
+| Key 1024 05:9e:49:44:8f:c8:16:6e:21:3d:2a:49:3a:bc:88:9c (DSA) used by:
+|   192.168.1.231
+|   192.168.1.232
+| Key 2048 3c:3f:8e:06:a1:24:1b:84:ab:15:b2:58:ec:32:0c:60 (RSA) used by:
+|   192.168.1.236
+|_  192.168.1.237
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Dec 28 15:26:50 2021 -- 80 IP addresses (80 hosts up) scanned in 1275.37 seconds
